@@ -1,0 +1,16 @@
+Yuki Brown
+Data Scientist
+yuki.brown@example.com
+
+SUMMARY
+Data Scientist with 5 years of experience. Specializes in Python, Statistics, Pandas.
+
+SKILLS
+Python, Statistics, Pandas, SQL, Machine Learning, A/B Testing, Tableau
+
+EXPERIENCE
+- Data Scientist, VisionAI (2024-present): delivered projects using Python, Statistics, Pandas; led a migration serving 55M users.
+- Data Scientist, Nodal (2021-2024): built systems with SQL, Machine Learning, A/B Testing; mentored 2 engineers.
+
+EDUCATION
+B.S. Statistics, VisionAI University, 2017

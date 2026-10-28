@@ -1,0 +1,6 @@
+# Flow 9: the bonus second MCP server (resume_db) alongside the filesystem one -
+# multi-MCP integration, cross-checking the live index against ground truth.
+jobs/jd_devops_sre.txt
+How many DevOps candidates are in the ground-truth database with at least 8 years of experience?
+Pull the ground-truth record for the #1 candidate from the database and compare it with what you scored them on
+done

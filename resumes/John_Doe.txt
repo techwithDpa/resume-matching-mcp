@@ -1,0 +1,16 @@
+John Doe
+Senior Backend Engineer
+john.doe@example.com
+
+SUMMARY
+Senior Backend Engineer with 9 years of experience. Specializes in Python, Django, PostgreSQL.
+
+SKILLS
+Python, Django, PostgreSQL, Redis, gRPC, Celery, Microservices
+
+EXPERIENCE
+- Senior Backend Engineer, Acme Corp (2022-present): delivered projects using Python, Django, PostgreSQL; reduced infrastructure cost by 29%.
+- Backend Engineer, VisionAI (2017-2022): built systems with Redis, gRPC, Celery; mentored 4 engineers.
+
+EDUCATION
+B.S. Computer Science, Acme University, 2013

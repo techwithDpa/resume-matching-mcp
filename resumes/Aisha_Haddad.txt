@@ -1,0 +1,16 @@
+Aisha Haddad
+DevOps Engineer
+aisha.haddad@example.com
+
+SUMMARY
+DevOps Engineer with 3 years of experience. Specializes in AWS, Terraform, Docker.
+
+SKILLS
+AWS, Terraform, Docker, Kubernetes, CI/CD, Python, Prometheus, React
+
+EXPERIENCE
+- DevOps Engineer, PixelLabs (2025-present): delivered projects using AWS, Terraform, Docker; improved model accuracy by 28 points.
+- DevOps Engineer, Beta Inc (2023-2025): built systems with Kubernetes, CI/CD, Python; led a migration serving 53M users.
+
+EDUCATION
+B.S. Computer Engineering, PixelLabs University, 2019

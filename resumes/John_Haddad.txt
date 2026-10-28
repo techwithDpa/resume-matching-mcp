@@ -1,0 +1,16 @@
+John Haddad
+Backend Engineer
+john.haddad@example.com
+
+SUMMARY
+Backend Engineer with 6 years of experience. Specializes in Python, Django, PostgreSQL.
+
+SKILLS
+Python, Django, PostgreSQL, REST APIs, Redis, Docker, Celery
+
+EXPERIENCE
+- Backend Engineer, CoreSystems (2023-present): delivered projects using Python, Django, PostgreSQL; mentored 53 engineers.
+- Backend Engineer, DataWorks (2020-2023): built systems with REST APIs, Redis, Docker; reduced incident count by 60%.
+
+EDUCATION
+B.S. Computer Science, CoreSystems University, 2016

@@ -1,0 +1,16 @@
+Anya Fischer
+Site Reliability Engineer
+anya.fischer@example.com
+
+SUMMARY
+Site Reliability Engineer with 6 years of experience. Specializes in Kubernetes, Go, Python.
+
+SKILLS
+Kubernetes, Go, Python, Linux, Incident Response, Grafana
+
+EXPERIENCE
+- Site Reliability Engineer, StreamHub (2023-present): delivered projects using Kubernetes, Go, Python; cut p95 latency by 3%.
+- Site Reliability Engineer, PixelLabs (2020-2023): built systems with Linux, Incident Response, Grafana; led a migration serving 17M users.
+
+EDUCATION
+B.S. Computer Science, StreamHub University, 2016

@@ -1,0 +1,16 @@
+Marco Cohen
+DevOps Engineer
+marco.cohen@example.com
+
+SUMMARY
+DevOps Engineer with 5 years of experience. Specializes in AWS, Terraform, Docker.
+
+SKILLS
+AWS, Terraform, Docker, Kubernetes, CI/CD, Prometheus, Python
+
+EXPERIENCE
+- DevOps Engineer, VisionAI (2024-present): delivered projects using AWS, Terraform, Docker; led a migration serving 55M users.
+- DevOps Engineer, Nodal (2021-2024): built systems with Kubernetes, CI/CD, Prometheus; grew test coverage to 7%.
+
+EDUCATION
+B.S. Computer Engineering, VisionAI University, 2017

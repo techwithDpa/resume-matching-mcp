@@ -1,0 +1,6 @@
+# Flow 5: iterative refinement - adjust requirements mid-conversation, re-rank, explain changes
+jobs/jd_platform_engineer.txt
+Drop Go and make Terraform a must-have
+Also require at least 8 years of experience
+Why did the ranking change for the new #1?
+done

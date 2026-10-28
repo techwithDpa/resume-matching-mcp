@@ -1,0 +1,16 @@
+Grace Mehta
+Security Engineer
+grace.mehta@example.com
+
+SUMMARY
+Security Engineer with 6 years of experience. Specializes in Python, Threat Modeling, Penetration Testing.
+
+SKILLS
+Python, Threat Modeling, Penetration Testing, SIEM, AWS, Cryptography, Go
+
+EXPERIENCE
+- Security Engineer, PixelLabs (2023-present): delivered projects using Python, Threat Modeling, Penetration Testing; led a migration serving 60M users.
+- Security Engineer, Beta Inc (2020-2023): built systems with SIEM, AWS, Cryptography; reduced incident count by 37%.
+
+EDUCATION
+B.S. Cybersecurity, PixelLabs University, 2016

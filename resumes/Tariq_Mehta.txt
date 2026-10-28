@@ -1,0 +1,16 @@
+Tariq Mehta
+Senior Frontend Engineer
+tariq.mehta@example.com
+
+SUMMARY
+Senior Frontend Engineer with 9 years of experience. Specializes in JavaScript, React, CSS.
+
+SKILLS
+JavaScript, React, CSS, HTML, Next.js, Accessibility, Redux, GraphQL
+
+EXPERIENCE
+- Senior Frontend Engineer, CoreSystems (2022-present): delivered projects using JavaScript, React, CSS; reduced incident count by 40%.
+- Frontend Engineer, DataWorks (2017-2022): built systems with HTML, Next.js, Accessibility; improved model accuracy by 32 points.
+
+EDUCATION
+B.S. Computer Science, CoreSystems University, 2013

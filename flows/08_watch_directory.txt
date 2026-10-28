@@ -1,0 +1,15 @@
+# Flow 8: MCP watch_directory - live resource monitoring via the filesystem
+# MCP server (a detached watchdog worker process + notifications/resources/
+# list_changed), demonstrated with a real file dropped onto disk mid-conversation.
+# The first line is a normal JD kickoff like every other flow, since the
+# graph always treats the session's first message as the job/search to run -
+# the watch request itself comes as a follow-up chat turn.
+jobs/jd_frontend_react.txt
+Start watching the resumes directory for new candidates, then confirm it's running
+!sleep 1
+!cp resumes/John_Doe.txt resumes/__demo_new_candidate.txt
+!sleep 2
+What new files have appeared in the resumes directory since you started watching?
+!rm -f resumes/__demo_new_candidate.txt
+Stop watching the directory
+done

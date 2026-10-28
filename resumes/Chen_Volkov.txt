@@ -1,0 +1,16 @@
+Chen Volkov
+Senior Site Reliability Engineer
+chen.volkov@example.com
+
+SUMMARY
+Senior Site Reliability Engineer with 9 years of experience. Specializes in Kubernetes, Prometheus, Go.
+
+SKILLS
+Kubernetes, Prometheus, Go, Python, Linux, Terraform, SLOs, Grafana
+
+EXPERIENCE
+- Senior Site Reliability Engineer, CoreSystems (2022-present): delivered projects using Kubernetes, Prometheus, Go; reduced infrastructure cost by 57%.
+- Site Reliability Engineer, DataWorks (2017-2022): built systems with Python, Linux, Terraform; shipped 4 production releases per month.
+
+EDUCATION
+B.S. Computer Science, CoreSystems University, 2013

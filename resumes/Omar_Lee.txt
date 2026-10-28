@@ -1,0 +1,16 @@
+Omar Lee
+QA Automation Engineer
+omar.lee@example.com
+
+SUMMARY
+QA Automation Engineer with 6 years of experience. Specializes in Python, Test Automation, CI/CD.
+
+SKILLS
+Python, Test Automation, CI/CD, pytest, API Testing, Playwright
+
+EXPERIENCE
+- QA Automation Engineer, BrightUI (2023-present): delivered projects using Python, Test Automation, CI/CD; improved model accuracy by 5 points.
+- QA Automation Engineer, CoreSystems (2020-2023): built systems with pytest, API Testing, Playwright; reduced infrastructure cost by 18%.
+
+EDUCATION
+B.S. Information Technology, BrightUI University, 2016

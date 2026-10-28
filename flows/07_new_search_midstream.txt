@@ -1,0 +1,5 @@
+# Flow 7: switch roles mid-conversation, then compare across the new shortlist
+jobs/jd_data_engineer.txt
+Find me security engineers with penetration testing and 4+ years
+Compare #1 and #2
+done

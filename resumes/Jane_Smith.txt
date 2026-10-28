@@ -1,0 +1,15 @@
+Jane Smith
+Junior Machine Learning Engineer
+jane.smith@example.com
+
+SUMMARY
+Junior Machine Learning Engineer with 1 years of experience. Specializes in Python, Machine Learning, scikit-learn.
+
+SKILLS
+Python, Machine Learning, scikit-learn, NLP, TensorFlow
+
+EXPERIENCE
+- Junior Machine Learning Engineer, Beta Inc (2025-present): delivered projects using Python, Machine Learning, scikit-learn; led a migration serving 30M users.
+
+EDUCATION
+B.S. Machine Learning, Beta University, 2021

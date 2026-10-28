@@ -1,0 +1,16 @@
+Nina Volkov
+Product Manager
+nina.volkov@example.com
+
+SUMMARY
+Product Manager with 4 years of experience. Specializes in Roadmapping, Analytics, SQL.
+
+SKILLS
+Roadmapping, Analytics, SQL, A/B Testing, Agile, Prioritization, Go-to-Market
+
+EXPERIENCE
+- Product Manager, PixelLabs (2024-present): delivered projects using Roadmapping, Analytics, SQL; shipped 34 production releases per month.
+- Product Manager, Beta Inc (2022-2024): built systems with A/B Testing, Agile, Prioritization; reduced infrastructure cost by 33%.
+
+EDUCATION
+B.S. Business Administration, PixelLabs University, 2018

@@ -1,0 +1,16 @@
+Nina Berg
+Junior Product Manager
+nina.berg@example.com
+
+SUMMARY
+Junior Product Manager with 2 years of experience. Specializes in Roadmapping, Analytics, SQL.
+
+SKILLS
+Roadmapping, Analytics, SQL, A/B Testing, Agile, Stakeholder Management, Terraform
+
+EXPERIENCE
+- Junior Product Manager, DataWorks (2025-present): delivered projects using Roadmapping, Analytics, SQL; cut p95 latency by 53%.
+- Product Manager, BrightUI (2024-2025): built systems with A/B Testing, Agile, Stakeholder Management; mentored 36 engineers.
+
+EDUCATION
+B.S. Business Administration, DataWorks University, 2020

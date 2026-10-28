@@ -1,0 +1,16 @@
+Lena Petrov
+Senior Full Stack Developer
+lena.petrov@example.com
+
+SUMMARY
+Senior Full Stack Developer with 12 years of experience. Specializes in JavaScript, React, Node.js.
+
+SKILLS
+JavaScript, React, Node.js, TypeScript, MongoDB, GraphQL, Express, AWS, Kafka
+
+EXPERIENCE
+- Senior Full Stack Developer, BrightUI (2020-present): delivered projects using JavaScript, React, Node.js; shipped 21 production releases per month.
+- Full Stack Developer, CoreSystems (2014-2020): built systems with TypeScript, MongoDB, GraphQL; improved model accuracy by 16 points.
+
+EDUCATION
+B.S. Software Engineering, BrightUI University, 2010

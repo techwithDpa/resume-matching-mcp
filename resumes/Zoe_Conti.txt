@@ -1,0 +1,16 @@
+Zoe Conti
+Senior Backend Engineer
+zoe.conti@example.com
+
+SUMMARY
+Senior Backend Engineer with 7 years of experience. Specializes in Python, Django, PostgreSQL.
+
+SKILLS
+Python, Django, PostgreSQL, REST APIs, Redis, Celery, Docker, gRPC
+
+EXPERIENCE
+- Senior Backend Engineer, Acme Corp (2023-present): delivered projects using Python, Django, PostgreSQL; cut p95 latency by 58%.
+- Backend Engineer, VisionAI (2019-2023): built systems with REST APIs, Redis, Celery; led a migration serving 50M users.
+
+EDUCATION
+B.S. Computer Science, Acme University, 2015

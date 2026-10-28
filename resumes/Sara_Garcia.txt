@@ -1,0 +1,16 @@
+Sara Garcia
+QA Automation Engineer
+sara.garcia@example.com
+
+SUMMARY
+QA Automation Engineer with 4 years of experience. Specializes in Python, Selenium, Test Automation.
+
+SKILLS
+Python, Selenium, Test Automation, CI/CD, pytest, Cypress, API Testing
+
+EXPERIENCE
+- QA Automation Engineer, Nodal (2024-present): delivered projects using Python, Selenium, Test Automation; improved model accuracy by 29 points.
+- QA Automation Engineer, Acme Corp (2022-2024): built systems with CI/CD, pytest, Cypress; mentored 44 engineers.
+
+EDUCATION
+B.S. Information Technology, Nodal University, 2018

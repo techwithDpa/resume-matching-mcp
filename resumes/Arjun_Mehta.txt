@@ -1,0 +1,16 @@
+Arjun Mehta
+Machine Learning Engineer
+arjun.mehta@example.com
+
+SUMMARY
+Machine Learning Engineer with 4 years of experience. Specializes in Python, Machine Learning, PyTorch.
+
+SKILLS
+Python, Machine Learning, PyTorch, scikit-learn, NLP, TensorFlow, MLOps
+
+EXPERIENCE
+- Machine Learning Engineer, Nodal (2024-present): delivered projects using Python, Machine Learning, PyTorch; reduced infrastructure cost by 43%.
+- Machine Learning Engineer, Acme Corp (2022-2024): built systems with scikit-learn, NLP, TensorFlow; cut p95 latency by 36%.
+
+EDUCATION
+B.S. Machine Learning, Nodal University, 2018

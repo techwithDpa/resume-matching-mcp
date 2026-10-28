@@ -1,0 +1,15 @@
+Jane Wei
+Junior Machine Learning Engineer
+jane.wei@example.com
+
+SUMMARY
+Junior Machine Learning Engineer with 1 years of experience. Specializes in Python, Machine Learning, PyTorch.
+
+SKILLS
+Python, Machine Learning, PyTorch, scikit-learn, Pandas, GraphQL
+
+EXPERIENCE
+- Junior Machine Learning Engineer, BrightUI (2025-present): delivered projects using Python, Machine Learning, PyTorch; grew test coverage to 18%.
+
+EDUCATION
+B.S. Machine Learning, BrightUI University, 2021

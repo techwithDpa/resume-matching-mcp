@@ -1,0 +1,4 @@
+# Flow 2: natural-language search with no JD file
+Find me candidates with React and 3+ years experience
+Show me the strengths and gaps of the #1 candidate
+done

@@ -1,0 +1,16 @@
+Omar Haddad
+Senior QA Automation Engineer
+omar.haddad@example.com
+
+SUMMARY
+Senior QA Automation Engineer with 10 years of experience. Specializes in Python, Selenium, Test Automation.
+
+SKILLS
+Python, Selenium, Test Automation, CI/CD, pytest, Performance Testing, Playwright, API Testing, Kubernetes
+
+EXPERIENCE
+- Senior QA Automation Engineer, Nodal (2021-present): delivered projects using Python, Selenium, Test Automation; shipped 37 production releases per month.
+- QA Automation Engineer, Acme Corp (2016-2021): built systems with CI/CD, pytest, Performance Testing; improved model accuracy by 36 points.
+
+EDUCATION
+B.S. Information Technology, Nodal University, 2012

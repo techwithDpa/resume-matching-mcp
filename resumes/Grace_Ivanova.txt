@@ -1,0 +1,16 @@
+Grace Ivanova
+Security Engineer
+grace.ivanova@example.com
+
+SUMMARY
+Security Engineer with 4 years of experience. Specializes in Python, Threat Modeling, SIEM.
+
+SKILLS
+Python, Threat Modeling, SIEM, AWS, Burp Suite, Cryptography
+
+EXPERIENCE
+- Security Engineer, DataWorks (2024-present): delivered projects using Python, Threat Modeling, SIEM; cut p95 latency by 50%.
+- Security Engineer, BrightUI (2022-2024): built systems with AWS, Burp Suite, Cryptography; led a migration serving 13M users.
+
+EDUCATION
+B.S. Cybersecurity, DataWorks University, 2018

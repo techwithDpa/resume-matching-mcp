@@ -1,0 +1,16 @@
+Aisha Aziz
+Junior DevOps Engineer
+aisha.aziz@example.com
+
+SUMMARY
+Junior DevOps Engineer with 2 years of experience. Specializes in AWS, Terraform, Docker.
+
+SKILLS
+AWS, Terraform, Docker, Kubernetes, Python, Kafka
+
+EXPERIENCE
+- Junior DevOps Engineer, DataWorks (2025-present): delivered projects using AWS, Terraform, Docker; improved model accuracy by 37 points.
+- DevOps Engineer, BrightUI (2024-2025): built systems with Kubernetes, Python, Kafka; shipped 35 production releases per month.
+
+EDUCATION
+B.S. Computer Engineering, DataWorks University, 2020

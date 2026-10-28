@@ -1,0 +1,16 @@
+David Noor
+Security Engineer
+david.noor@example.com
+
+SUMMARY
+Security Engineer with 6 years of experience. Specializes in Python, Threat Modeling, Penetration Testing.
+
+SKILLS
+Python, Threat Modeling, Penetration Testing, AWS, Burp Suite, SOC, Terraform
+
+EXPERIENCE
+- Security Engineer, VisionAI (2023-present): delivered projects using Python, Threat Modeling, Penetration Testing; grew test coverage to 2%.
+- Security Engineer, Nodal (2020-2023): built systems with AWS, Burp Suite, SOC; reduced incident count by 47%.
+
+EDUCATION
+B.S. Cybersecurity, VisionAI University, 2016

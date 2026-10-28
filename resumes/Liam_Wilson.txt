@@ -1,0 +1,16 @@
+Liam Wilson
+Full Stack Developer
+liam.wilson@example.com
+
+SUMMARY
+Full Stack Developer with 3 years of experience. Specializes in JavaScript, React, Node.js.
+
+SKILLS
+JavaScript, React, Node.js, TypeScript, MongoDB, AWS, Docker
+
+EXPERIENCE
+- Full Stack Developer, Nodal (2025-present): delivered projects using JavaScript, React, Node.js; led a migration serving 49M users.
+- Full Stack Developer, Acme Corp (2023-2025): built systems with TypeScript, MongoDB, AWS; mentored 11 engineers.
+
+EDUCATION
+B.S. Software Engineering, Nodal University, 2019

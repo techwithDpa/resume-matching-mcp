@@ -1,0 +1,16 @@
+Kofi Mensah
+Senior Data Engineer
+kofi.mensah@example.com
+
+SUMMARY
+Senior Data Engineer with 9 years of experience. Specializes in Python, Spark, Airflow.
+
+SKILLS
+Python, Spark, Airflow, SQL, ETL, dbt, Snowflake, Kafka
+
+EXPERIENCE
+- Senior Data Engineer, Beta Inc (2022-present): delivered projects using Python, Spark, Airflow; improved model accuracy by 18 points.
+- Data Engineer, StreamHub (2017-2022): built systems with SQL, ETL, dbt; reduced infrastructure cost by 27%.
+
+EDUCATION
+B.S. Data Engineering, Beta University, 2013

@@ -1,0 +1,16 @@
+Clara Mensah
+Senior Data Scientist
+clara.mensah@example.com
+
+SUMMARY
+Senior Data Scientist with 7 years of experience. Specializes in Python, Statistics, Pandas.
+
+SKILLS
+Python, Statistics, Pandas, SQL, Machine Learning, A/B Testing, Experimentation, R, Kafka
+
+EXPERIENCE
+- Senior Data Scientist, DataWorks (2023-present): delivered projects using Python, Statistics, Pandas; cut p95 latency by 23%.
+- Data Scientist, BrightUI (2019-2023): built systems with SQL, Machine Learning, A/B Testing; shipped 44 production releases per month.
+
+EDUCATION
+B.S. Statistics, DataWorks University, 2015

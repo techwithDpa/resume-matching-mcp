@@ -1,0 +1,16 @@
+Emma Brown
+Senior Mobile Engineer
+emma.brown@example.com
+
+SUMMARY
+Senior Mobile Engineer with 7 years of experience. Specializes in Swift, iOS, Android.
+
+SKILLS
+Swift, iOS, Android, Mobile, React Native, REST APIs, Flutter
+
+EXPERIENCE
+- Senior Mobile Engineer, StreamHub (2023-present): delivered projects using Swift, iOS, Android; grew test coverage to 57%.
+- Mobile Engineer, PixelLabs (2019-2023): built systems with Mobile, React Native, REST APIs; improved model accuracy by 50 points.
+
+EDUCATION
+B.S. Computer Science, StreamHub University, 2015
