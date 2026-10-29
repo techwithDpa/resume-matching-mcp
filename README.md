@@ -125,18 +125,23 @@ A script line starting with `!` runs as a shell command instead of a chat turn (
 
 ## Demo video
 
-**Pending** — not yet recorded. All 9 flows ran live end to end against Claude Sonnet 5.5 once (see sample reports below); `demo.sh` and the pipeline below are ready, this is the last step before submission.
+[`demo/demo.mp4`](demo/demo.mp4) (5:30) / [`demo/demo.gif`](demo/demo.gif). This session's Anthropic credit ran out partway through live testing, so the recording is assembled from two kinds of material, both genuinely real — nothing here is staged or fabricated:
 
-`demo/record_live.py` captures `./demo.sh`'s real terminal output with true timestamps; `demo/make_cast.py` builds a paced asciinema cast from it (shortens model-wait gaps, adds reading pauses, keeps each turn's real latency visible); `agg`/`ffmpeg` render the GIF/MP4 — the same pipeline Milestone 3 used:
+1. **Live, right now, every time it's recorded** — doesn't touch the LLM at all, so it needs no credit: the MCP tool/resource discovery across both servers, and `tests/test_mcp_server.py -k watch_directory` actually running and passing (the protocol-level proof for the `watch_directory` fix described above).
+2. **Replayed from an earlier fully-live run against Claude Sonnet 5.5** (before credit ran out): the real captured terminal output of flows 1, 5, 6 and 9, verbatim, with each turn's real response time preserved (e.g. `(37.1s)`) — just re-paced for watchability rather than re-run. Flow 8 (`watch_directory` through the chat UI) isn't replayed: that fix landed after this run, so item 1 above is its evidence instead.
 
 ```bash
-python demo/record_live.py demo/raw.json -- ./demo.sh
-python demo/make_cast.py demo/raw.json demo/demo.cast --target 335
-agg --idle-time-limit 30 --font-size 16 demo/demo.cast demo/demo.gif
+# 1. record the genuinely-live segment (no LLM, works with zero credit)
+python demo/record_live.py demo/live_intro_raw.json -- ./demo/demo_live_intro.sh
+# 2. splice in the captured transcripts in demo/replay_logs/ (see build_demo_raw.py)
+python demo/build_demo_raw.py
+# 3. pace the combined timeline into an asciinema cast, then render
+python demo/make_cast.py demo/raw.json demo/demo.cast --target 330 --cap 3
+agg --idle-time-limit 30 --font-size 16 --last-frame-duration 4 demo/demo.cast demo/demo.gif
 ffmpeg -i demo/demo.gif -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2,fps=15" -c:v libx264 -pix_fmt yuv420p demo/demo.mp4
 ```
 
-Sample reports from the live run are in [`docs/sample_reports/`](docs/sample_reports/): `ml_engineer_v1.md` (a full 3-round report), `platform_engineer_v3_refined.md` (after two refinements), `interview_questions_devops_top1.md` (saved via the MCP `write_file` tool).
+The source transcripts are committed in [`demo/replay_logs/`](demo/replay_logs/), so anyone can check the video against them line for line. Sample reports from that same live run are in [`docs/sample_reports/`](docs/sample_reports/): `ml_engineer_v1.md` (a full 3-round report), `platform_engineer_v3_refined.md` (after two refinements), `interview_questions_devops_top1.md` (saved via the MCP `write_file` tool).
 
 ## Test scenarios
 

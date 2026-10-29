@@ -1,0 +1,211 @@
+W1028 18:25:57.093000 45619 .venv/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Resume Matching Agent — LangGraph · 3-round screening over 100 resumes                                               │
+│ LLM: claude-sonnet-5-5                                                                                               │
+│ Start with a JD file (e.g. jobs/jd_ml_engineer.txt) or a request like Find me candidates with React and 3+ years     │
+│ experience.                                                                                                          │
+│ Then ask questions, refine requirements, or type done.                                                               │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+you › jobs/jd_platform_engineer.txt
+2026-10-28 18:25:58,743 INFO mcp.resume_db: loaded 100 candidates, 8 jobs from /Users/deepakulkarni/code/resume-matching-mcp/dataset_meta.json
+2026-10-28 18:25:58,746 INFO mcp.resume_db: starting resume_db MCP server: transport=stdio dataset=/Users/deepakulkarni/code/resume-matching-mcp/dataset_meta.json
+2026-10-28 18:25:58,757 INFO mcp.resume_db: Processing request of type ListToolsRequest
+2026-10-28 18:25:58,839 INFO mcp.filesystem: starting filesystem MCP server: transport=stdio root=/Users/deepakulkarni/code/resume-matching-mcp writable=('reports',)
+2026-10-28 18:25:58,847 INFO mcp.filesystem: Processing request of type ListToolsRequest
+2026-10-28 18:25:59,361 INFO mcp.filesystem: starting filesystem MCP server: transport=stdio root=/Users/deepakulkarni/code/resume-matching-mcp writable=('reports',)
+2026-10-28 18:25:59,370 INFO mcp.filesystem: Processing request of type CallToolRequest
+2026-10-28 18:25:59,373 INFO mcp.filesystem: Processing request of type ListToolsRequest
+  · [parse_jd] JD source: jobs/jd_platform_engineer.txt (31 words)
+  · [extract_requirements] [llm] must-have=['Kubernetes', 'Go'] nice-to-have=['Terraform', 'Prometheus', 'AWS', 
+'On-call', 'SLOs'] min_years=5
+  · [search_resumes] Round 1: scored 100 resumes -> top 10 (6 meet every must-have + years)
+  · [rank_candidates] Round 2: deep analysis of 10 candidates
+2026-10-28 18:26:04,039 INFO mcp.filesystem: starting filesystem MCP server: transport=stdio root=/Users/deepakulkarni/code/resume-matching-mcp writable=('reports',)
+2026-10-28 18:26:04,048 INFO mcp.filesystem: Processing request of type CallToolRequest
+2026-10-28 18:26:04,065 INFO mcp.filesystem: batch_process(read): 10/10 ok in 16.4ms (8 workers)
+2026-10-28 18:26:04,067 INFO mcp.filesystem: Processing request of type ListToolsRequest
+  · [rank_candidates] Round 2 done (llm)
+  · [rank_candidates] Round 3: verdicts {'hire': 2, 'maybe': 4, 'no-hire': 4}
+2026-10-28 18:26:35,230 INFO mcp.filesystem: starting filesystem MCP server: transport=stdio root=/Users/deepakulkarni/code/resume-matching-mcp writable=('reports',)
+2026-10-28 18:26:35,241 INFO mcp.filesystem: Processing request of type CallToolRequest
+2026-10-28 18:26:35,243 INFO mcp.filesystem: Processing request of type ListToolsRequest
+  · [generate_report] Match report written to reports/senior_platform_engineer_v1_20261028_182634.md (via MCP filesystem
+server)
+╭─ agent ──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Senior Platform Engineer — must: Kubernetes, Go; nice: Terraform, Prometheus, AWS, On-call, SLOs; 5+ yrs             │
+│                                                                                                                      │
+│ Screened 100 resumes → top 10 → 2 hire / 4 maybe / 4 no-hire                                                         │
+│                                                                                                                      │
+│                                                                                                                      │
+│  #  Candidate    Final  Verdict  Key reason                                                                          │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  1  Chen Volkov  76     hire     Meets both must-haves with 9 years of experience and covers Terraform, Prometheus   │
+│                                  and SLOs, with a measurable…                                                        │
+│  2  Fatima Ali   76     hire     Meets both must-haves with 9 years, a senior title, and Prometheus, Terraform and   │
+│                                  SLOs, plus quantified…                                                              │
+│  3  Aisha Khan   67     maybe    Lists both must-haves and 9 years, but they are tied to the 2017-2022 role and not  │
+│                                  the current one. Impact…                                                            │
+│  4  Chen Berg    66     maybe    Meets the 5-year minimum and lists both must-haves, but hands-on Go/Kubernetes use  │
+│                                  is only 1-2 years with…                                                             │
+│  5  Diego Silva  65     maybe    Long experience and AWS, Terraform and Kubernetes at BrightUI, but Go appears only  │
+│                                  in the skills list and…                                                             │
+│                                                                                                                      │
+│                                                                                                                      │
+│ Full report: reports/senior_platform_engineer_v1_20261028_182634.md                                                  │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+  (37.1s)
+
+you › Drop Go and make Terraform a must-have
+  · [human_feedback] intent=refine
+  · [refine_requirements] v2: Go removed from must-have; Terraform moved from nice-to-have to must-have
+  · [search_resumes] Round 1: scored 100 resumes -> top 10 (7 meet every must-have + years)
+  · [rank_candidates] Round 2: deep analysis of 10 candidates
+2026-10-28 18:26:38,592 INFO mcp.filesystem: starting filesystem MCP server: transport=stdio root=/Users/deepakulkarni/code/resume-matching-mcp writable=('reports',)
+2026-10-28 18:26:38,601 INFO mcp.filesystem: Processing request of type CallToolRequest
+2026-10-28 18:26:38,624 INFO mcp.filesystem: batch_process(read): 10/10 ok in 21.8ms (8 workers)
+2026-10-28 18:26:38,626 INFO mcp.filesystem: Processing request of type ListToolsRequest
+  · [rank_candidates] Round 2 done (llm)
+  · [rank_candidates] Round 3: verdicts {'hire': 3, 'maybe': 4, 'no-hire': 3}
+  · [rank_candidates] Re-ranked: 10 candidate(s) moved vs previous ranking
+2026-10-28 18:27:09,548 INFO mcp.filesystem: starting filesystem MCP server: transport=stdio root=/Users/deepakulkarni/code/resume-matching-mcp writable=('reports',)
+2026-10-28 18:27:09,559 INFO mcp.filesystem: Processing request of type CallToolRequest
+2026-10-28 18:27:09,562 INFO mcp.filesystem: Processing request of type ListToolsRequest
+  · [generate_report] Match report written to reports/senior_platform_engineer_v2_20261028_182708.md (via MCP filesystem
+server)
+╭─ agent ──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Requirements updated (v2): Go removed from must-have; Terraform moved from nice-to-have to must-have                 │
+│                                                                                                                      │
+│ Senior Platform Engineer — must: Kubernetes, Terraform; nice: Prometheus, AWS, On-call, SLOs; 5+ yrs                 │
+│                                                                                                                      │
+│ Screened 100 resumes → top 10 → 3 hire / 4 maybe / 3 no-hire                                                         │
+│                                                                                                                      │
+│                                                                                                                      │
+│  #  Candidate    Final  Verdict  Key reason                                                                          │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  1  Chen Volkov  75     hire     Nine years of SRE experience with both must-haves, plus Prometheus and SLOs. Gaps   │
+│                                  are AWS, recent Terraform…                                                          │
+│  2  Diego Silva  75     hire     Twelve years of experience, current Terraform and AWS use, and Kubernetes hands-on  │
+│                                  work leading a large…                                                               │
+│  3  Aisha Khan   70     hire     Nine years of experience, a senior title, Terraform with AWS in the current role,   │
+│                                  and Kubernetes at a prior…                                                          │
+│  4  Fatima Ali   72     maybe    Strong Kubernetes, Prometheus and SLO background with nine years of experience.     │
+│                                  Terraform appears only in the…                                                      │
+│  5  Marco Cohen  67     maybe    Both must-haves are backed by role usage and he meets the 5-year minimum exactly.   │
+│                                  Depth, seniority and…                                                               │
+│                                                                                                                      │
+│                                                                                                                      │
+│ Ranking changes:                                                                                                     │
+│                                                                                                                      │
+│  • Diego Silva ↑3: has newly required Terraform                                                                      │
+│  • Fatima Ali ↓2: loses credit for Go                                                                                │
+│  • Marco Cohen ↑4: has newly required Terraform; no longer penalised for missing Go                                  │
+│  • Diego Larsson ★ new: has newly required Terraform; no longer penalised for missing Go                             │
+│  • Chen Berg ↓3: loses credit for Go                                                                                 │
+│  • Fatima Noor ↓1: loses credit for Go                                                                               │
+│                                                                                                                      │
+│ Full report: reports/senior_platform_engineer_v2_20261028_182708.md                                                  │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+  (34.3s)
+
+you › Also require at least 8 years of experience
+  · [human_feedback] intent=refine
+  · [refine_requirements] v3: Minimum years of experience increased from 5 to 8
+  · [search_resumes] Round 1: scored 100 resumes -> top 10 (5 meet every must-have + years)
+  · [rank_candidates] Round 2: deep analysis of 10 candidates
+2026-10-28 18:27:14,135 INFO mcp.filesystem: starting filesystem MCP server: transport=stdio root=/Users/deepakulkarni/code/resume-matching-mcp writable=('reports',)
+2026-10-28 18:27:14,144 INFO mcp.filesystem: Processing request of type CallToolRequest
+2026-10-28 18:27:14,159 INFO mcp.filesystem: batch_process(read): 10/10 ok in 13.8ms (8 workers)
+2026-10-28 18:27:14,161 INFO mcp.filesystem: Processing request of type ListToolsRequest
+  · [rank_candidates] Round 2 done (llm)
+  · [rank_candidates] Round 3: verdicts {'hire': 2, 'maybe': 3, 'no-hire': 5}
+  · [rank_candidates] Re-ranked: 7 candidate(s) moved vs previous ranking
+2026-10-28 18:27:42,331 INFO mcp.filesystem: starting filesystem MCP server: transport=stdio root=/Users/deepakulkarni/code/resume-matching-mcp writable=('reports',)
+2026-10-28 18:27:42,342 INFO mcp.filesystem: Processing request of type CallToolRequest
+2026-10-28 18:27:42,344 INFO mcp.filesystem: Processing request of type ListToolsRequest
+  · [generate_report] Match report written to reports/senior_platform_engineer_v3_20261028_182741.md (via MCP filesystem
+server)
+╭─ agent ──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Requirements updated (v3): Minimum years of experience increased from 5 to 8                                         │
+│                                                                                                                      │
+│ Senior Platform Engineer — must: Kubernetes, Terraform; nice: Prometheus, AWS, On-call, SLOs; 8+ yrs                 │
+│                                                                                                                      │
+│ Screened 100 resumes → top 10 → 2 hire / 3 maybe / 5 no-hire                                                         │
+│                                                                                                                      │
+│                                                                                                                      │
+│  #  Candidate      Final  Verdict  Key reason                                                                        │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  1  Chen Volkov    73     hire     Meets 9 years and both must-haves, with strong Kubernetes, Prometheus and SLO     │
+│                                    coverage plus quantified cost…                                                    │
+│  2  Diego Silva    71     hire     12 years of experience, current hands-on Terraform and AWS, and Kubernetes at a   │
+│                                    prior role, with measurable…                                                      │
+│  3  Fatima Ali     71     maybe    Strong Kubernetes, Prometheus and SLO background with 9 years of SRE experience,  │
+│                                    but Terraform appears only…                                                       │
+│  4  Aisha Khan     66     maybe    Meets years and both must-haves on paper, with current Terraform and AWS use.     │
+│                                    Kubernetes recency is unclear…                                                    │
+│  5  Diego Larsson  66     maybe    12 years with current Terraform and past Kubernetes work, but Kubernetes recency  │
+│                                    is unclear, impact is…                                                            │
+│                                                                                                                      │
+│                                                                                                                      │
+│ Ranking changes:                                                                                                     │
+│                                                                                                                      │
+│  • Fatima Ali ↑1: 9 yrs meets new 8+ bar                                                                             │
+│  • Aisha Khan ↓1: overtaken by candidates who gained more                                                            │
+│  • Diego Larsson ↑1: 12 yrs meets new 8+ bar                                                                         │
+│  • Marco Cohen ↓1: 5 yrs below new 8+ bar                                                                            │
+│  • Aisha Haddad ↑2: candidates above were penalised more                                                             │
+│  • Chen Wei ★ new: score shift from re-weighted retrieval                                                            │
+│                                                                                                                      │
+│ Full report: reports/senior_platform_engineer_v3_20261028_182741.md                                                  │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+  (32.8s)
+
+you › Why did the ranking change for the new #1?
+  · [human_feedback] intent=question
+  · [chat_agent] tool get_rank_changes()
+  · [chat_agent] tool get_candidate_analysis(candidate='#1')
+╭─ agent ──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Chen Volkov (#1) didn't move. He was #1 in v2 and is still #1 in v3. His score fell slightly, from 75 to 73.         │
+│                                                                                                                      │
+│ Why he stayed on top                                                                                                 │
+│                                                                                                                      │
+│  • The 8+ years requirement cost almost everyone points. Chen Volkov has 9 years, so he met the new bar and lost     │
+│    only 2 points.                                                                                                    │
+│  • Others lost more:                                                                                                 │
+│     • Diego Silva: 75 → 71                                                                                           │
+│     • Aisha Khan: 70 → 66                                                                                            │
+│     • Marco Cohen: 67 → 60. He has 5 years, below the 8+ bar.                                                        │
+│     • Fatima Noor: 62 → 53                                                                                           │
+│     • Aisha Aziz: 51 → 42                                                                                            │
+│  • Fatima Ali is the one exception. Her score fell only 1 point (72 → 71), which moved her up from #4 to #3.         │
+│                                                                                                                      │
+│ Chen Volkov's score components (v3)                                                                                  │
+│                                                                                                                      │
+│                                                                                                                      │
+│  Component  Score                                                                                                    │
+│  ────────────────                                                                                                    │
+│  Round 1    71                                                                                                       │
+│  Semantic   73                                                                                                       │
+│  Keyword    67                                                                                                       │
+│  Fit        74                                                                                                       │
+│  Final      73                                                                                                       │
+│                                                                                                                      │
+│                                                                                                                      │
+│  • Must-haves: None are missing. Kubernetes is used in his current role (CoreSystems, 2022–present). Terraform was   │
+│    used at DataWorks (2017–2022).                                                                                    │
+│  • Nice-to-haves: Prometheus and SLOs are on his resume. AWS and on-call are not.                                    │
+│  • Weak spots:                                                                                                       │
+│     • His Terraform use is tied to the older role.                                                                   │
+│     • SLOs appear only in his skills list.                                                                           │
+│     • His bullets are generic.                                                                                       │
+│                                                                                                                      │
+│ Tie with Diego Silva: Chen Volkov and Diego Silva were tied at 75 in v2 and are now 73 vs 71. Diego Silva has 12     │
+│ years of experience. The tool output doesn't give a component-level reason for the 2-point gap, so I can run         │
+│ explain_ranking on the two of them if you want that.                                                                 │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+  (6.7s)
+
+you › done
+  · [human_feedback] intent=end
+Session ended.
+  (0.0s)

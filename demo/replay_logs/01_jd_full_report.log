@@ -1,0 +1,130 @@
+W1028 18:22:13.775000 45197 .venv/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Resume Matching Agent — LangGraph · 3-round screening over 100 resumes                                               │
+│ LLM: claude-sonnet-5-5                                                                                               │
+│ Start with a JD file (e.g. jobs/jd_ml_engineer.txt) or a request like Find me candidates with React and 3+ years     │
+│ experience.                                                                                                          │
+│ Then ask questions, refine requirements, or type done.                                                               │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+you › jobs/jd_ml_engineer.txt
+2026-10-28 18:22:15,526 INFO mcp.resume_db: loaded 100 candidates, 8 jobs from /Users/deepakulkarni/code/resume-matching-mcp/dataset_meta.json
+2026-10-28 18:22:15,531 INFO mcp.resume_db: starting resume_db MCP server: transport=stdio dataset=/Users/deepakulkarni/code/resume-matching-mcp/dataset_meta.json
+2026-10-28 18:22:15,544 INFO mcp.resume_db: Processing request of type ListToolsRequest
+2026-10-28 18:22:15,901 INFO mcp.filesystem: starting filesystem MCP server: transport=stdio root=/Users/deepakulkarni/code/resume-matching-mcp writable=('reports',)
+2026-10-28 18:22:15,912 INFO mcp.filesystem: Processing request of type ListToolsRequest
+2026-10-28 18:22:16,461 INFO mcp.filesystem: starting filesystem MCP server: transport=stdio root=/Users/deepakulkarni/code/resume-matching-mcp writable=('reports',)
+2026-10-28 18:22:16,473 INFO mcp.filesystem: Processing request of type CallToolRequest
+2026-10-28 18:22:16,478 INFO mcp.filesystem: Processing request of type ListToolsRequest
+  · [parse_jd] JD source: jobs/jd_ml_engineer.txt (46 words)
+  · [extract_requirements] [llm] must-have=['Python', 'Machine Learning', 'NLP'] nice-to-have=['PyTorch', 'TensorFlow', 
+'MLOps', 'ETL', 'Docker', 'AWS'] min_years=5
+  · [search_resumes] Round 1: scored 100 resumes -> top 10 (5 meet every must-have + years)
+  · [rank_candidates] Round 2: deep analysis of 10 candidates
+2026-10-28 18:22:23,691 INFO mcp.filesystem: starting filesystem MCP server: transport=stdio root=/Users/deepakulkarni/code/resume-matching-mcp writable=('reports',)
+2026-10-28 18:22:23,700 INFO mcp.filesystem: Processing request of type CallToolRequest
+2026-10-28 18:22:23,720 INFO mcp.filesystem: batch_process(read): 10/10 ok in 19.2ms (8 workers)
+2026-10-28 18:22:23,722 INFO mcp.filesystem: Processing request of type ListToolsRequest
+  · [rank_candidates] Round 2 done (llm)
+  · [rank_candidates] Round 3: verdicts {'hire': 1, 'maybe': 5, 'no-hire': 4}
+2026-10-28 18:22:51,686 INFO mcp.filesystem: starting filesystem MCP server: transport=stdio root=/Users/deepakulkarni/code/resume-matching-mcp writable=('reports',)
+2026-10-28 18:22:51,695 INFO mcp.filesystem: Processing request of type CallToolRequest
+2026-10-28 18:22:51,700 INFO mcp.filesystem: Processing request of type ListToolsRequest
+  · [generate_report] Match report written to reports/senior_machine_learning_engineer_v1_20261028_182251.md (via MCP 
+filesystem server)
+╭─ agent ──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Senior Machine Learning Engineer — must: Python, Machine Learning, NLP; nice: PyTorch, TensorFlow, MLOps, ETL,       │
+│ Docker, AWS; 5+ yrs                                                                                                  │
+│                                                                                                                      │
+│ Screened 100 resumes → top 10 → 1 hire / 5 maybe / 4 no-hire                                                         │
+│                                                                                                                      │
+│                                                                                                                      │
+│  #  Candidate      Final  Verdict  Key reason                                                                        │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  1  Arjun Ivanova  75     hire     Meets all must-haves with 8 years, a senior title, and both PyTorch and           │
+│                                    TensorFlow, plus leadership signals.…                                             │
+│  2  Jane Volkov    70     maybe    Meets must-haves and years on paper, with PyTorch and a quantified cost win. NLP  │
+│                                    evidence is only a keyword…                                                       │
+│  3  Priya Noor     70     maybe    10 years and a senior title with NLP at a prior role and PyTorch now. NLP isn't   │
+│                                    current, cloud and deployment…                                                    │
+│  4  Arjun Fischer  65     maybe    Technically meets all must-haves and the minimum years, but NLP is thin, the      │
+│                                    metrics are vague, and there are…                                                 │
+│  5  Priya Nair     63     maybe    Meets must-haves at the 5-year floor with quantified latency and accuracy gains.  │
+│                                    NLP is shallow and there is…                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│ Full report: reports/senior_machine_learning_engineer_v1_20261028_182251.md                                          │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+  (36.8s)
+
+you › Which candidates are borderline, and what would make them stronger?
+  · [human_feedback] intent=question
+  · [chat_agent] tool get_shortlist()
+  · [chat_agent] tool get_candidate_analysis(candidate='#4')
+  · [chat_agent] tool get_candidate_analysis(candidate='#5')
+  · [chat_agent] tool get_candidate_analysis(candidate='#6')
+  · [chat_agent] tool get_candidate_analysis(candidate='#7')
+╭─ agent ──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ The borderline candidates are the "maybe" verdicts at #2–#6, plus Arjun Mehta (#7), who is a near-miss. I pulled the │
+│ full analysis for #4–#7. For #2 and #3 I only have the one-line reasons from the first summary, so treat those rows  │
+│ as less detailed.                                                                                                    │
+│                                                                                                                      │
+│                                                                                                                      │
+│  Rank  Candidate      Score / verdict                Main gap                        What would make them stronger   │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  #2    Jane Volkov    70 / maybe                     NLP is only a keyword           Show concrete NLP work. She     │
+│                                                                                      already has PyTorch and a       │
+│                                                                                      quantified cost win.            │
+│  #3    Priya Noor     70 / maybe                     NLP isn't current, and cloud    Show recent NLP work and cloud  │
+│                                                      and deployment evidence is      or deployment experience. She   │
+│                                                      thin                            has 10 years, a senior title    │
+│                                                                                      and PyTorch.                    │
+│  #4    Arjun Fischer  65 / maybe (low confidence)    NLP appears only in the         Describe specific NLP projects  │
+│                                                      2020–2023 role. There are no    with models and data size. Add  │
+│                                                      senior signals and no Docker,   production MLOps, Docker and    │
+│                                                      AWS or TensorFlow.              AWS, and show leadership.       │
+│                                                                                      Clarify the vague metrics ("50  │
+│                                                                                      points" of accuracy and the     │
+│                                                                                      30% incident cut have no        │
+│                                                                                      baseline).                      │
+│  #5    Priya Nair     63 / maybe (low confidence)    She sits exactly at the 5-year  Give exact dates and any        │
+│                                                      floor, and the resume dates     earlier experience. Describe a  │
+│                                                      (2021–present) suggest only     concrete NLP task and result.   │
+│                                                      about 4–5 years. NLP is         Add deployment and MLOps        │
+│                                                      shallow.                        evidence, and spell out her     │
+│                                                                                      Spark and Kafka pipeline (ETL)  │
+│                                                                                      ownership.                      │
+│  #6    Priya Ali      58 / maybe (low confidence)    NLP is a must-have and appears  Confirm any NLP exposure in     │
+│                                                      nowhere in her resume.          conversation, since she's only  │
+│                                                                                      worth considering if it         │
+│                                                                                      exists. Explain the 2014–2018   │
+│                                                                                      gap and what the 38M-user       │
+│                                                                                      migration involved. She has 8   │
+│                                                                                      years, a senior title, PyTorch  │
+│                                                                                      and MLOps.                      │
+│  #7    Arjun Mehta    66 / no-hire (medium           He has 4 years against the      He would need more relevant     │
+│                       confidence)                    5-year minimum, no senior       experience, or a better         │
+│                                                      title, and only one generic     explanation of the 2018–2022    │
+│                                                      NLP bullet.                     gap. His impact numbers are     │
+│                                                                                      good (43% cost cut, 36%         │
+│                                                                                      latency cut), and he has        │
+│                                                                                      TensorFlow and PyTorch.         │
+│                                                                                                                      │
+│                                                                                                                      │
+│  • Biggest swing factor: NLP depth. It is thin or unverified for every borderline candidate, so one NLP-focused      │
+│    screening call could move several of them.                                                                        │
+│  • Common missing items: Docker, AWS and ETL are absent for #4, #5, #6 and #7. Senior-level scope is also missing    │
+│    for #4, #5 and #7.                                                                                                │
+│  • Experience claims to check: The timelines for Fischer, Nair, Ali and Mehta don't fully support their stated       │
+│    years.                                                                                                            │
+│  • Mehta's rank: He is ranked #7 despite a score of 66, which is higher than #5 and #6. The verdict sorts ahead of   │
+│    the score because he falls below the 5-year minimum.                                                              │
+│                                                                                                                      │
+│ I can generate screening questions for any of them, or run a head-to-head comparison.                                │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+  (12.4s)
+
+you › done
+  · [human_feedback] intent=end
+Session ended.
+  (0.0s)
