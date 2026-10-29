@@ -1,0 +1,16 @@
+Tariq Aziz
+Senior Frontend Engineer
+tariq.aziz@example.com
+
+SUMMARY
+Senior Frontend Engineer with 10 years of experience. Specializes in JavaScript, React, CSS.
+
+SKILLS
+JavaScript, React, CSS, HTML, Redux, Accessibility, Next.js
+
+EXPERIENCE
+- Senior Frontend Engineer, Acme Corp (2021-present): delivered projects using JavaScript, React, CSS; shipped 25 production releases per month.
+- Frontend Engineer, VisionAI (2016-2021): built systems with HTML, Redux, Accessibility; reduced infrastructure cost by 50%.
+
+EDUCATION
+B.S. Computer Science, Acme University, 2012

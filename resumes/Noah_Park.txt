@@ -1,0 +1,16 @@
+Noah Park
+Data Engineer
+noah.park@example.com
+
+SUMMARY
+Data Engineer with 3 years of experience. Specializes in Python, Spark, Airflow.
+
+SKILLS
+Python, Spark, Airflow, SQL, ETL, AWS, Kafka
+
+EXPERIENCE
+- Data Engineer, Nodal (2025-present): delivered projects using Python, Spark, Airflow; reduced infrastructure cost by 10%.
+- Data Engineer, Acme Corp (2023-2025): built systems with SQL, ETL, AWS; shipped 53 production releases per month.
+
+EDUCATION
+B.S. Data Engineering, Nodal University, 2019

@@ -1,0 +1,16 @@
+Sofia Rossi
+Data Engineer
+sofia.rossi@example.com
+
+SUMMARY
+Data Engineer with 3 years of experience. Specializes in Python, Spark, Airflow.
+
+SKILLS
+Python, Spark, Airflow, SQL, ETL, Snowflake, dbt, AWS
+
+EXPERIENCE
+- Data Engineer, BrightUI (2025-present): delivered projects using Python, Spark, Airflow; grew test coverage to 48%.
+- Data Engineer, CoreSystems (2023-2025): built systems with SQL, ETL, Snowflake; mentored 17 engineers.
+
+EDUCATION
+B.S. Data Engineering, BrightUI University, 2019

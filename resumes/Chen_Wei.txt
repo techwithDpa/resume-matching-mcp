@@ -1,0 +1,16 @@
+Chen Wei
+Site Reliability Engineer
+chen.wei@example.com
+
+SUMMARY
+Site Reliability Engineer with 4 years of experience. Specializes in Kubernetes, Prometheus, Go.
+
+SKILLS
+Kubernetes, Prometheus, Go, Python, Linux, Terraform, Grafana
+
+EXPERIENCE
+- Site Reliability Engineer, StreamHub (2024-present): delivered projects using Kubernetes, Prometheus, Go; reduced incident count by 55%.
+- Site Reliability Engineer, PixelLabs (2022-2024): built systems with Python, Linux, Terraform; improved model accuracy by 25 points.
+
+EDUCATION
+B.S. Computer Science, StreamHub University, 2018

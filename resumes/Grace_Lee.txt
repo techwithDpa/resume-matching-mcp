@@ -1,0 +1,16 @@
+Grace Lee
+Junior Security Engineer
+grace.lee@example.com
+
+SUMMARY
+Junior Security Engineer with 2 years of experience. Specializes in Python, Threat Modeling, Penetration Testing.
+
+SKILLS
+Python, Threat Modeling, Penetration Testing, SIEM, AWS, Go
+
+EXPERIENCE
+- Junior Security Engineer, VisionAI (2025-present): delivered projects using Python, Threat Modeling, Penetration Testing; cut p95 latency by 47%.
+- Security Engineer, Nodal (2024-2025): built systems with SIEM, AWS, Go; reduced incident count by 42%.
+
+EDUCATION
+B.S. Cybersecurity, VisionAI University, 2020

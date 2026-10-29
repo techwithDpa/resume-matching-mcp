@@ -1,0 +1,16 @@
+Noah Conti
+Data Engineer
+noah.conti@example.com
+
+SUMMARY
+Data Engineer with 5 years of experience. Specializes in Python, Spark, Airflow.
+
+SKILLS
+Python, Spark, Airflow, SQL, ETL, AWS, Snowflake, Docker
+
+EXPERIENCE
+- Data Engineer, Beta Inc (2024-present): delivered projects using Python, Spark, Airflow; led a migration serving 22M users.
+- Data Engineer, StreamHub (2021-2024): built systems with SQL, ETL, AWS; improved model accuracy by 40 points.
+
+EDUCATION
+B.S. Data Engineering, Beta University, 2017

@@ -1,0 +1,16 @@
+Raj Patel
+Data Scientist
+raj.patel@example.com
+
+SUMMARY
+Data Scientist with 4 years of experience. Specializes in Python, Statistics, Pandas.
+
+SKILLS
+Python, Statistics, Pandas, SQL, Machine Learning, R, Experimentation
+
+EXPERIENCE
+- Data Scientist, DataWorks (2024-present): delivered projects using Python, Statistics, Pandas; improved model accuracy by 11 points.
+- Data Scientist, BrightUI (2022-2024): built systems with SQL, Machine Learning, R; grew test coverage to 15%.
+
+EDUCATION
+B.S. Statistics, DataWorks University, 2018

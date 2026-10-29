@@ -1,0 +1,16 @@
+Fatima Saab
+Junior Site Reliability Engineer
+fatima.saab@example.com
+
+SUMMARY
+Junior Site Reliability Engineer with 2 years of experience. Specializes in Kubernetes, Prometheus, Go.
+
+SKILLS
+Kubernetes, Prometheus, Go, Linux, Incident Response
+
+EXPERIENCE
+- Junior Site Reliability Engineer, Acme Corp (2025-present): delivered projects using Kubernetes, Prometheus, Go; reduced incident count by 21%.
+- Site Reliability Engineer, VisionAI (2024-2025): built systems with Linux, Incident Response; improved model accuracy by 46 points.
+
+EDUCATION
+B.S. Computer Science, Acme University, 2020

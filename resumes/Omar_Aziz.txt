@@ -1,0 +1,16 @@
+Omar Aziz
+Junior QA Automation Engineer
+omar.aziz@example.com
+
+SUMMARY
+Junior QA Automation Engineer with 2 years of experience. Specializes in Python, Selenium, Test Automation.
+
+SKILLS
+Python, Selenium, Test Automation, CI/CD, pytest, API Testing
+
+EXPERIENCE
+- Junior QA Automation Engineer, Beta Inc (2025-present): delivered projects using Python, Selenium, Test Automation; improved model accuracy by 40 points.
+- QA Automation Engineer, StreamHub (2024-2025): built systems with CI/CD, pytest, API Testing; shipped 34 production releases per month.
+
+EDUCATION
+B.S. Information Technology, Beta University, 2020

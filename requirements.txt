@@ -1,0 +1,30 @@
+# Agent framework + LLM (Anthropic Claude API)
+langgraph>=1.0.0               # state machine, interrupts, checkpointing
+langchain-core>=1.0.0          # messages, tool schemas
+anthropic>=2.0.0               # official Claude SDK (claude-sonnet-5-5)
+
+# RAG stack from Milestone 2 (local, free)
+sentence-transformers>=3.0.0   # all-MiniLM-L6-v2 embeddings
+chromadb>=0.5.0                # local persistent vector database
+numpy>=1.26
+
+# File tools from Milestone 1 (used server-side only, inside filesystem_mcp_server.py -
+# the agent itself no longer imports fs_tools; see mcp_bridge.py)
+pypdf>=4.0.0                   # read .pdf
+python-docx>=1.1.0             # read/write .docx
+
+# MCP (Milestone 4): two servers + the agent-side client
+mcp>=1.28,<2                   # FastMCP; pinned below the v2 rename (FastMCP -> MCPServer)
+langchain-mcp-adapters>=0.3,<0.4   # MultiServerMCPClient -> LangChain BaseTool objects
+watchdog>=6.0                  # filesystem events for watch_directory()
+
+# Interfaces
+rich>=13.0                     # CLI rendering
+streamlit>=1.40                # web chat UI
+
+# Tests
+pytest>=8.0
+pytest-asyncio>=1.0            # protocol-level MCP server tests (tests/test_mcp_server.py)
+
+# Sample-dataset generation only
+fpdf2>=2.7.0                   # generate sample .pdf resumes

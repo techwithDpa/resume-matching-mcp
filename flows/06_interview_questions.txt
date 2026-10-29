@@ -1,0 +1,5 @@
+# Flow 6: interview questions + file tools (Milestone 1) to save them
+jobs/jd_devops_sre.txt
+Generate interview questions for the #1 candidate
+Save those questions to reports/interview_questions_top1.md
+done

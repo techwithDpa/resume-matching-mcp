@@ -1,0 +1,15 @@
+Yuki Park
+Junior Data Scientist
+yuki.park@example.com
+
+SUMMARY
+Junior Data Scientist with 1 years of experience. Specializes in Python, Statistics, Pandas.
+
+SKILLS
+Python, Statistics, Pandas, SQL, Machine Learning, R
+
+EXPERIENCE
+- Junior Data Scientist, PixelLabs (2025-present): delivered projects using Python, Statistics, Pandas; shipped 15 production releases per month.
+
+EDUCATION
+B.S. Statistics, PixelLabs University, 2021

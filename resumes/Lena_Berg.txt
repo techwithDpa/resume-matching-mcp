@@ -1,0 +1,16 @@
+Lena Berg
+Full Stack Developer
+lena.berg@example.com
+
+SUMMARY
+Full Stack Developer with 3 years of experience. Specializes in JavaScript, React, Node.js.
+
+SKILLS
+JavaScript, React, Node.js, TypeScript, MongoDB, GraphQL, AWS, Docker
+
+EXPERIENCE
+- Full Stack Developer, Beta Inc (2025-present): delivered projects using JavaScript, React, Node.js; reduced infrastructure cost by 58%.
+- Full Stack Developer, StreamHub (2023-2025): built systems with TypeScript, MongoDB, GraphQL; grew test coverage to 55%.
+
+EDUCATION
+B.S. Software Engineering, Beta University, 2019

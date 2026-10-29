@@ -1,0 +1,16 @@
+Aisha Khan
+Senior DevOps Engineer
+aisha.khan@example.com
+
+SUMMARY
+Senior DevOps Engineer with 9 years of experience. Specializes in AWS, Terraform, Docker.
+
+SKILLS
+AWS, Terraform, Docker, Kubernetes, CI/CD, Go, Prometheus, Ansible
+
+EXPERIENCE
+- Senior DevOps Engineer, VisionAI (2022-present): delivered projects using AWS, Terraform, Docker; cut p95 latency by 16%.
+- DevOps Engineer, Nodal (2017-2022): built systems with Kubernetes, CI/CD, Go; improved model accuracy by 51 points.
+
+EDUCATION
+B.S. Computer Engineering, VisionAI University, 2013

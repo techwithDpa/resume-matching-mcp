@@ -1,0 +1,16 @@
+Maria Nair
+Senior Frontend Engineer
+maria.nair@example.com
+
+SUMMARY
+Senior Frontend Engineer with 12 years of experience. Specializes in JavaScript, React, TypeScript.
+
+SKILLS
+JavaScript, React, TypeScript, HTML, Accessibility, Webpack, Redux
+
+EXPERIENCE
+- Senior Frontend Engineer, Acme Corp (2020-present): delivered projects using JavaScript, React, TypeScript; shipped 17 production releases per month.
+- Frontend Engineer, VisionAI (2014-2020): built systems with HTML, Accessibility, Webpack; cut p95 latency by 48%.
+
+EDUCATION
+B.S. Computer Science, Acme University, 2010

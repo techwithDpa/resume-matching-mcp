@@ -1,0 +1,16 @@
+Zoe Cohen
+Backend Engineer
+zoe.cohen@example.com
+
+SUMMARY
+Backend Engineer with 4 years of experience. Specializes in Python, Django, PostgreSQL.
+
+SKILLS
+Python, Django, PostgreSQL, REST APIs, Redis, Docker, Microservices
+
+EXPERIENCE
+- Backend Engineer, StreamHub (2024-present): delivered projects using Python, Django, PostgreSQL; cut p95 latency by 57%.
+- Backend Engineer, PixelLabs (2022-2024): built systems with REST APIs, Redis, Docker; improved model accuracy by 36 points.
+
+EDUCATION
+B.S. Computer Science, StreamHub University, 2018

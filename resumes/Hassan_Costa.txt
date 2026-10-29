@@ -1,0 +1,16 @@
+Hassan Costa
+Product Manager
+hassan.costa@example.com
+
+SUMMARY
+Product Manager with 5 years of experience. Specializes in Roadmapping, Analytics, SQL.
+
+SKILLS
+Roadmapping, Analytics, SQL, A/B Testing, Agile, Go-to-Market, Prioritization
+
+EXPERIENCE
+- Product Manager, VisionAI (2024-present): delivered projects using Roadmapping, Analytics, SQL; cut p95 latency by 7%.
+- Product Manager, Nodal (2021-2024): built systems with A/B Testing, Agile, Go-to-Market; shipped 22 production releases per month.
+
+EDUCATION
+B.S. Business Administration, VisionAI University, 2017

@@ -1,0 +1,2247 @@
+{
+  "resumes": {
+    "John_Doe.txt": {
+      "name": "John Doe",
+      "role": "backend",
+      "title": "Senior Backend Engineer",
+      "seniority": "Senior",
+      "years": 9,
+      "skills": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "Redis",
+        "gRPC",
+        "Celery",
+        "Microservices"
+      ],
+      "achievements": [
+        "reduced infrastructure cost by 29%",
+        "mentored 4 engineers"
+      ],
+      "education": "B.S. Computer Science, Acme University, 2013"
+    },
+    "Jane_Smith.txt": {
+      "name": "Jane Smith",
+      "role": "ml",
+      "title": "Junior Machine Learning Engineer",
+      "seniority": "Junior",
+      "years": 1,
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "scikit-learn",
+        "NLP",
+        "TensorFlow"
+      ],
+      "achievements": [
+        "led a migration serving 30M users",
+        "reduced infrastructure cost by 39%"
+      ],
+      "education": "B.S. Machine Learning, Beta University, 2021"
+    },
+    "Raj_Patel.txt": {
+      "name": "Raj Patel",
+      "role": "data_science",
+      "title": "Data Scientist",
+      "seniority": "Mid",
+      "years": 4,
+      "skills": [
+        "Python",
+        "Statistics",
+        "Pandas",
+        "SQL",
+        "Machine Learning",
+        "R",
+        "Experimentation"
+      ],
+      "achievements": [
+        "improved model accuracy by 11 points",
+        "grew test coverage to 15%"
+      ],
+      "education": "B.S. Statistics, DataWorks University, 2018"
+    },
+    "Maria_Garcia.docx": {
+      "name": "Maria Garcia",
+      "role": "frontend",
+      "title": "Senior Frontend Engineer",
+      "seniority": "Senior",
+      "years": 12,
+      "skills": [
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "CSS",
+        "HTML",
+        "Redux",
+        "Next.js",
+        "Webpack"
+      ],
+      "achievements": [
+        "improved model accuracy by 18 points",
+        "mentored 53 engineers"
+      ],
+      "education": "B.S. Computer Science, CloudNine University, 2010"
+    },
+    "Liam_OConnor.pdf": {
+      "name": "Liam O'Connor",
+      "role": "fullstack",
+      "title": "Junior Full Stack Developer",
+      "seniority": "Junior",
+      "years": 1,
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "TypeScript",
+        "MongoDB",
+        "GraphQL"
+      ],
+      "achievements": [
+        "led a migration serving 37M users",
+        "cut p95 latency by 20%"
+      ],
+      "education": "B.S. Software Engineering, ShipFast University, 2021"
+    },
+    "Aisha_Khan.txt": {
+      "name": "Aisha Khan",
+      "role": "devops",
+      "title": "Senior DevOps Engineer",
+      "seniority": "Senior",
+      "years": 9,
+      "skills": [
+        "AWS",
+        "Terraform",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "Go",
+        "Prometheus",
+        "Ansible"
+      ],
+      "achievements": [
+        "cut p95 latency by 16%",
+        "improved model accuracy by 51 points"
+      ],
+      "education": "B.S. Computer Engineering, VisionAI University, 2013"
+    },
+    "Chen_Wei.txt": {
+      "name": "Chen Wei",
+      "role": "sre",
+      "title": "Site Reliability Engineer",
+      "seniority": "Mid",
+      "years": 4,
+      "skills": [
+        "Kubernetes",
+        "Prometheus",
+        "Go",
+        "Python",
+        "Linux",
+        "Terraform",
+        "Grafana"
+      ],
+      "achievements": [
+        "reduced incident count by 55%",
+        "improved model accuracy by 25 points"
+      ],
+      "education": "B.S. Computer Science, StreamHub University, 2018"
+    },
+    "Sofia_Rossi.txt": {
+      "name": "Sofia Rossi",
+      "role": "data_eng",
+      "title": "Data Engineer",
+      "seniority": "Mid",
+      "years": 3,
+      "skills": [
+        "Python",
+        "Spark",
+        "Airflow",
+        "SQL",
+        "ETL",
+        "Snowflake",
+        "dbt",
+        "AWS"
+      ],
+      "achievements": [
+        "grew test coverage to 48%",
+        "mentored 17 engineers"
+      ],
+      "education": "B.S. Data Engineering, BrightUI University, 2019"
+    },
+    "David_Mueller.docx": {
+      "name": "David Mueller",
+      "role": "security",
+      "title": "Security Engineer",
+      "seniority": "Mid",
+      "years": 3,
+      "skills": [
+        "Python",
+        "Threat Modeling",
+        "Penetration Testing",
+        "SIEM",
+        "AWS",
+        "Cryptography",
+        "SOC"
+      ],
+      "achievements": [
+        "shipped 22 production releases per month",
+        "improved model accuracy by 55 points"
+      ],
+      "education": "B.S. Cybersecurity, SafeGuard University, 2019"
+    },
+    "Emma_Wilson.pdf": {
+      "name": "Emma Wilson",
+      "role": "mobile",
+      "title": "Senior Mobile Engineer",
+      "seniority": "Senior",
+      "years": 12,
+      "skills": [
+        "Swift",
+        "Kotlin",
+        "iOS",
+        "Android",
+        "Mobile",
+        "Flutter",
+        "React Native",
+        "CI/CD"
+      ],
+      "achievements": [
+        "reduced infrastructure cost by 60%",
+        "reduced incident count by 38%"
+      ],
+      "education": "B.S. Computer Science, GrowthLabs University, 2010"
+    },
+    "Omar_Haddad.txt": {
+      "name": "Omar Haddad",
+      "role": "qa",
+      "title": "Senior QA Automation Engineer",
+      "seniority": "Senior",
+      "years": 10,
+      "skills": [
+        "Python",
+        "Selenium",
+        "Test Automation",
+        "CI/CD",
+        "pytest",
+        "Performance Testing",
+        "Playwright",
+        "API Testing",
+        "Kubernetes"
+      ],
+      "achievements": [
+        "shipped 37 production releases per month",
+        "improved model accuracy by 36 points"
+      ],
+      "education": "B.S. Information Technology, Nodal University, 2012"
+    },
+    "Nina_Volkov.txt": {
+      "name": "Nina Volkov",
+      "role": "pm",
+      "title": "Product Manager",
+      "seniority": "Mid",
+      "years": 4,
+      "skills": [
+        "Roadmapping",
+        "Analytics",
+        "SQL",
+        "A/B Testing",
+        "Agile",
+        "Prioritization",
+        "Go-to-Market"
+      ],
+      "achievements": [
+        "shipped 34 production releases per month",
+        "reduced infrastructure cost by 33%"
+      ],
+      "education": "B.S. Business Administration, PixelLabs University, 2018"
+    },
+    "Carlos_Ruiz.txt": {
+      "name": "Carlos Ruiz",
+      "role": "backend",
+      "title": "Junior Backend Engineer",
+      "seniority": "Junior",
+      "years": 2,
+      "skills": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "REST APIs",
+        "Redis",
+        "Celery",
+        "Kubernetes"
+      ],
+      "achievements": [
+        "led a migration serving 6M users",
+        "mentored 26 engineers"
+      ],
+      "education": "B.S. Computer Science, CoreSystems University, 2020"
+    },
+    "Priya_Nair.docx": {
+      "name": "Priya Nair",
+      "role": "ml",
+      "title": "Machine Learning Engineer",
+      "seniority": "Mid",
+      "years": 5,
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "PyTorch",
+        "scikit-learn",
+        "NLP",
+        "Spark",
+        "Pandas",
+        "Kafka"
+      ],
+      "achievements": [
+        "cut p95 latency by 48%",
+        "improved model accuracy by 9 points"
+      ],
+      "education": "B.S. Machine Learning, Quantify University, 2017"
+    },
+    "Yuki_Tanaka.pdf": {
+      "name": "Yuki Tanaka",
+      "role": "data_science",
+      "title": "Senior Data Scientist",
+      "seniority": "Senior",
+      "years": 9,
+      "skills": [
+        "Python",
+        "Statistics",
+        "Pandas",
+        "SQL",
+        "Machine Learning",
+        "Tableau",
+        "Experimentation",
+        "A/B Testing",
+        "Go"
+      ],
+      "achievements": [
+        "grew test coverage to 2%",
+        "shipped 48 production releases per month"
+      ],
+      "education": "B.S. Statistics, NimbusIO University, 2013"
+    },
+    "Tariq_Aziz.txt": {
+      "name": "Tariq Aziz",
+      "role": "frontend",
+      "title": "Senior Frontend Engineer",
+      "seniority": "Senior",
+      "years": 10,
+      "skills": [
+        "JavaScript",
+        "React",
+        "CSS",
+        "HTML",
+        "Redux",
+        "Accessibility",
+        "Next.js"
+      ],
+      "achievements": [
+        "shipped 25 production releases per month",
+        "reduced infrastructure cost by 50%"
+      ],
+      "education": "B.S. Computer Science, Acme University, 2012"
+    },
+    "Lena_Berg.txt": {
+      "name": "Lena Berg",
+      "role": "fullstack",
+      "title": "Full Stack Developer",
+      "seniority": "Mid",
+      "years": 3,
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "TypeScript",
+        "MongoDB",
+        "GraphQL",
+        "AWS",
+        "Docker"
+      ],
+      "achievements": [
+        "reduced infrastructure cost by 58%",
+        "grew test coverage to 55%"
+      ],
+      "education": "B.S. Software Engineering, Beta University, 2019"
+    },
+    "Diego_Silva.txt": {
+      "name": "Diego Silva",
+      "role": "devops",
+      "title": "Senior DevOps Engineer",
+      "seniority": "Senior",
+      "years": 12,
+      "skills": [
+        "AWS",
+        "Terraform",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "Ansible",
+        "Prometheus",
+        "Go",
+        "GraphQL"
+      ],
+      "achievements": [
+        "reduced infrastructure cost by 36%",
+        "led a migration serving 51M users"
+      ],
+      "education": "B.S. Computer Engineering, DataWorks University, 2010"
+    },
+    "Fatima_Noor.docx": {
+      "name": "Fatima Noor",
+      "role": "sre",
+      "title": "Site Reliability Engineer",
+      "seniority": "Mid",
+      "years": 3,
+      "skills": [
+        "Kubernetes",
+        "Prometheus",
+        "Go",
+        "Python",
+        "Terraform",
+        "SLOs"
+      ],
+      "achievements": [
+        "led a migration serving 36M users",
+        "reduced infrastructure cost by 50%"
+      ],
+      "education": "B.S. Computer Science, CloudNine University, 2019"
+    },
+    "Noah_Brown.pdf": {
+      "name": "Noah Brown",
+      "role": "data_eng",
+      "title": "Senior Data Engineer",
+      "seniority": "Senior",
+      "years": 10,
+      "skills": [
+        "Python",
+        "Spark",
+        "Airflow",
+        "SQL",
+        "ETL",
+        "dbt",
+        "Snowflake",
+        "AWS"
+      ],
+      "achievements": [
+        "reduced incident count by 17%",
+        "cut p95 latency by 16%"
+      ],
+      "education": "B.S. Data Engineering, ShipFast University, 2012"
+    },
+    "Grace_Lee.txt": {
+      "name": "Grace Lee",
+      "role": "security",
+      "title": "Junior Security Engineer",
+      "seniority": "Junior",
+      "years": 2,
+      "skills": [
+        "Python",
+        "Threat Modeling",
+        "Penetration Testing",
+        "SIEM",
+        "AWS",
+        "Go"
+      ],
+      "achievements": [
+        "cut p95 latency by 47%",
+        "reduced incident count by 42%"
+      ],
+      "education": "B.S. Cybersecurity, VisionAI University, 2020"
+    },
+    "Ivan_Petrov.txt": {
+      "name": "Ivan Petrov",
+      "role": "mobile",
+      "title": "Junior Mobile Engineer",
+      "seniority": "Junior",
+      "years": 1,
+      "skills": [
+        "Swift",
+        "iOS",
+        "Android",
+        "Mobile",
+        "REST APIs",
+        "SQL"
+      ],
+      "achievements": [
+        "mentored 33 engineers",
+        "improved model accuracy by 15 points"
+      ],
+      "education": "B.S. Computer Science, StreamHub University, 2021"
+    },
+    "Mei_Lin.txt": {
+      "name": "Mei Lin",
+      "role": "qa",
+      "title": "Senior QA Automation Engineer",
+      "seniority": "Senior",
+      "years": 7,
+      "skills": [
+        "Python",
+        "Selenium",
+        "Test Automation",
+        "CI/CD",
+        "Playwright",
+        "Performance Testing",
+        "API Testing",
+        "AWS"
+      ],
+      "achievements": [
+        "led a migration serving 29M users",
+        "grew test coverage to 28%"
+      ],
+      "education": "B.S. Information Technology, BrightUI University, 2015"
+    },
+    "Hassan_Ali.docx": {
+      "name": "Hassan Ali",
+      "role": "pm",
+      "title": "Product Manager",
+      "seniority": "Mid",
+      "years": 6,
+      "skills": [
+        "Roadmapping",
+        "Analytics",
+        "SQL",
+        "A/B Testing",
+        "Agile",
+        "Figma",
+        "Go-to-Market"
+      ],
+      "achievements": [
+        "reduced infrastructure cost by 27%",
+        "cut p95 latency by 48%"
+      ],
+      "education": "B.S. Business Administration, SafeGuard University, 2016"
+    },
+    "Zoe_Park.pdf": {
+      "name": "Zoe Park",
+      "role": "backend",
+      "title": "Backend Engineer",
+      "seniority": "Mid",
+      "years": 5,
+      "skills": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "REST APIs",
+        "Redis",
+        "Celery",
+        "Docker",
+        "React"
+      ],
+      "achievements": [
+        "reduced incident count by 29%",
+        "reduced infrastructure cost by 13%"
+      ],
+      "education": "B.S. Computer Science, GrowthLabs University, 2017"
+    },
+    "Arjun_Mehta.txt": {
+      "name": "Arjun Mehta",
+      "role": "ml",
+      "title": "Machine Learning Engineer",
+      "seniority": "Mid",
+      "years": 4,
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "PyTorch",
+        "scikit-learn",
+        "NLP",
+        "TensorFlow",
+        "MLOps"
+      ],
+      "achievements": [
+        "reduced infrastructure cost by 43%",
+        "cut p95 latency by 36%"
+      ],
+      "education": "B.S. Machine Learning, Nodal University, 2018"
+    },
+    "Clara_Weiss.txt": {
+      "name": "Clara Weiss",
+      "role": "data_science",
+      "title": "Junior Data Scientist",
+      "seniority": "Junior",
+      "years": 1,
+      "skills": [
+        "Python",
+        "Statistics",
+        "Pandas",
+        "SQL",
+        "Machine Learning",
+        "A/B Testing",
+        "Kafka"
+      ],
+      "achievements": [
+        "reduced incident count by 57%",
+        "reduced infrastructure cost by 27%"
+      ],
+      "education": "B.S. Statistics, PixelLabs University, 2021"
+    },
+    "Sven_Larsson.txt": {
+      "name": "Sven Larsson",
+      "role": "frontend",
+      "title": "Junior Frontend Engineer",
+      "seniority": "Junior",
+      "years": 1,
+      "skills": [
+        "JavaScript",
+        "TypeScript",
+        "CSS",
+        "HTML",
+        "Webpack",
+        "Go"
+      ],
+      "achievements": [
+        "mentored 46 engineers",
+        "shipped 48 production releases per month"
+      ],
+      "education": "B.S. Computer Science, CoreSystems University, 2021"
+    },
+    "Leila_Saab.docx": {
+      "name": "Leila Saab",
+      "role": "fullstack",
+      "title": "Senior Full Stack Developer",
+      "seniority": "Senior",
+      "years": 12,
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "TypeScript",
+        "MongoDB",
+        "Docker",
+        "GraphQL",
+        "AWS",
+        "Kubernetes"
+      ],
+      "achievements": [
+        "cut p95 latency by 22%",
+        "improved model accuracy by 5 points"
+      ],
+      "education": "B.S. Software Engineering, Quantify University, 2010"
+    },
+    "Marco_Conti.pdf": {
+      "name": "Marco Conti",
+      "role": "devops",
+      "title": "Junior DevOps Engineer",
+      "seniority": "Junior",
+      "years": 1,
+      "skills": [
+        "AWS",
+        "Terraform",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "Python",
+        "Kafka"
+      ],
+      "achievements": [
+        "reduced infrastructure cost by 13%",
+        "led a migration serving 6M users"
+      ],
+      "education": "B.S. Computer Engineering, NimbusIO University, 2021"
+    },
+    "Anya_Ivanova.txt": {
+      "name": "Anya Ivanova",
+      "role": "sre",
+      "title": "Senior Site Reliability Engineer",
+      "seniority": "Senior",
+      "years": 8,
+      "skills": [
+        "Kubernetes",
+        "Prometheus",
+        "Python",
+        "Linux",
+        "SLOs",
+        "Grafana",
+        "Incident Response"
+      ],
+      "achievements": [
+        "cut p95 latency by 7%",
+        "mentored 28 engineers"
+      ],
+      "education": "B.S. Computer Science, Acme University, 2014"
+    },
+    "Kofi_Mensah.txt": {
+      "name": "Kofi Mensah",
+      "role": "data_eng",
+      "title": "Senior Data Engineer",
+      "seniority": "Senior",
+      "years": 9,
+      "skills": [
+        "Python",
+        "Spark",
+        "Airflow",
+        "SQL",
+        "ETL",
+        "dbt",
+        "Snowflake",
+        "Kafka"
+      ],
+      "achievements": [
+        "improved model accuracy by 18 points",
+        "reduced infrastructure cost by 27%"
+      ],
+      "education": "B.S. Data Engineering, Beta University, 2013"
+    },
+    "Hana_Kim.txt": {
+      "name": "Hana Kim",
+      "role": "security",
+      "title": "Security Engineer",
+      "seniority": "Mid",
+      "years": 3,
+      "skills": [
+        "Python",
+        "Threat Modeling",
+        "Penetration Testing",
+        "SIEM",
+        "AWS",
+        "Cryptography",
+        "Go",
+        "Kubernetes"
+      ],
+      "achievements": [
+        "cut p95 latency by 41%",
+        "shipped 38 production releases per month"
+      ],
+      "education": "B.S. Cybersecurity, DataWorks University, 2019"
+    },
+    "Pedro_Costa.docx": {
+      "name": "Pedro Costa",
+      "role": "mobile",
+      "title": "Junior Mobile Engineer",
+      "seniority": "Junior",
+      "years": 2,
+      "skills": [
+        "Swift",
+        "Kotlin",
+        "Android",
+        "Mobile",
+        "REST APIs",
+        "TypeScript"
+      ],
+      "achievements": [
+        "reduced infrastructure cost by 25%",
+        "reduced incident count by 20%"
+      ],
+      "education": "B.S. Computer Science, CloudNine University, 2020"
+    },
+    "Sara_Cohen.pdf": {
+      "name": "Sara Cohen",
+      "role": "qa",
+      "title": "QA Automation Engineer",
+      "seniority": "Mid",
+      "years": 3,
+      "skills": [
+        "Python",
+        "Selenium",
+        "Test Automation",
+        "CI/CD",
+        "pytest",
+        "API Testing",
+        "Performance Testing"
+      ],
+      "achievements": [
+        "cut p95 latency by 54%",
+        "improved model accuracy by 37 points"
+      ],
+      "education": "B.S. Information Technology, ShipFast University, 2019"
+    },
+    "Tom_Fischer.txt": {
+      "name": "Tom Fischer",
+      "role": "pm",
+      "title": "Product Manager",
+      "seniority": "Mid",
+      "years": 4,
+      "skills": [
+        "Roadmapping",
+        "Analytics",
+        "SQL",
+        "A/B Testing",
+        "Agile",
+        "Figma",
+        "Prioritization",
+        "AWS"
+      ],
+      "achievements": [
+        "grew test coverage to 20%",
+        "reduced incident count by 40%"
+      ],
+      "education": "B.S. Business Administration, VisionAI University, 2018"
+    },
+    "John_Khan.txt": {
+      "name": "John Khan",
+      "role": "backend",
+      "title": "Backend Engineer",
+      "seniority": "Mid",
+      "years": 3,
+      "skills": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "REST APIs",
+        "Redis",
+        "gRPC",
+        "Microservices"
+      ],
+      "achievements": [
+        "mentored 33 engineers",
+        "reduced incident count by 18%"
+      ],
+      "education": "B.S. Computer Science, StreamHub University, 2019"
+    },
+    "Jane_Wei.txt": {
+      "name": "Jane Wei",
+      "role": "ml",
+      "title": "Junior Machine Learning Engineer",
+      "seniority": "Junior",
+      "years": 1,
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "PyTorch",
+        "scikit-learn",
+        "Pandas",
+        "GraphQL"
+      ],
+      "achievements": [
+        "grew test coverage to 18%",
+        "improved model accuracy by 12 points"
+      ],
+      "education": "B.S. Machine Learning, BrightUI University, 2021"
+    },
+    "Raj_Rossi.docx": {
+      "name": "Raj Rossi",
+      "role": "data_science",
+      "title": "Senior Data Scientist",
+      "seniority": "Senior",
+      "years": 10,
+      "skills": [
+        "Python",
+        "Statistics",
+        "Pandas",
+        "SQL",
+        "Machine Learning",
+        "Experimentation",
+        "Tableau",
+        "R",
+        "Kubernetes"
+      ],
+      "achievements": [
+        "cut p95 latency by 25%",
+        "led a migration serving 39M users"
+      ],
+      "education": "B.S. Statistics, SafeGuard University, 2012"
+    },
+    "Maria_Mueller.pdf": {
+      "name": "Maria Mueller",
+      "role": "frontend",
+      "title": "Senior Frontend Engineer",
+      "seniority": "Senior",
+      "years": 7,
+      "skills": [
+        "JavaScript",
+        "React",
+        "CSS",
+        "HTML",
+        "Redux",
+        "Next.js",
+        "Accessibility"
+      ],
+      "achievements": [
+        "cut p95 latency by 15%",
+        "grew test coverage to 45%"
+      ],
+      "education": "B.S. Computer Science, GrowthLabs University, 2015"
+    },
+    "Liam_Wilson.txt": {
+      "name": "Liam Wilson",
+      "role": "fullstack",
+      "title": "Full Stack Developer",
+      "seniority": "Mid",
+      "years": 3,
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "TypeScript",
+        "MongoDB",
+        "AWS",
+        "Docker"
+      ],
+      "achievements": [
+        "led a migration serving 49M users",
+        "mentored 11 engineers"
+      ],
+      "education": "B.S. Software Engineering, Nodal University, 2019"
+    },
+    "Aisha_Haddad.txt": {
+      "name": "Aisha Haddad",
+      "role": "devops",
+      "title": "DevOps Engineer",
+      "seniority": "Mid",
+      "years": 3,
+      "skills": [
+        "AWS",
+        "Terraform",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "Python",
+        "Prometheus",
+        "React"
+      ],
+      "achievements": [
+        "improved model accuracy by 28 points",
+        "led a migration serving 53M users"
+      ],
+      "education": "B.S. Computer Engineering, PixelLabs University, 2019"
+    },
+    "Chen_Volkov.txt": {
+      "name": "Chen Volkov",
+      "role": "sre",
+      "title": "Senior Site Reliability Engineer",
+      "seniority": "Senior",
+      "years": 9,
+      "skills": [
+        "Kubernetes",
+        "Prometheus",
+        "Go",
+        "Python",
+        "Linux",
+        "Terraform",
+        "SLOs",
+        "Grafana"
+      ],
+      "achievements": [
+        "reduced infrastructure cost by 57%",
+        "shipped 4 production releases per month"
+      ],
+      "education": "B.S. Computer Science, CoreSystems University, 2013"
+    },
+    "Sofia_Ruiz.docx": {
+      "name": "Sofia Ruiz",
+      "role": "data_eng",
+      "title": "Data Engineer",
+      "seniority": "Mid",
+      "years": 6,
+      "skills": [
+        "Python",
+        "Spark",
+        "Airflow",
+        "SQL",
+        "dbt",
+        "Snowflake"
+      ],
+      "achievements": [
+        "shipped 3 production releases per month",
+        "reduced infrastructure cost by 44%"
+      ],
+      "education": "B.S. Data Engineering, Quantify University, 2016"
+    },
+    "David_Nair.pdf": {
+      "name": "David Nair",
+      "role": "security",
+      "title": "Security Engineer",
+      "seniority": "Mid",
+      "years": 3,
+      "skills": [
+        "Python",
+        "Threat Modeling",
+        "Penetration Testing",
+        "SIEM",
+        "AWS",
+        "Cryptography",
+        "Burp Suite"
+      ],
+      "achievements": [
+        "mentored 43 engineers",
+        "grew test coverage to 34%"
+      ],
+      "education": "B.S. Cybersecurity, NimbusIO University, 2019"
+    },
+    "Emma_Tanaka.txt": {
+      "name": "Emma Tanaka",
+      "role": "mobile",
+      "title": "Mobile Engineer",
+      "seniority": "Mid",
+      "years": 5,
+      "skills": [
+        "Swift",
+        "Kotlin",
+        "iOS",
+        "Android",
+        "Mobile",
+        "REST APIs",
+        "React Native",
+        "Python"
+      ],
+      "achievements": [
+        "grew test coverage to 18%",
+        "mentored 4 engineers"
+      ],
+      "education": "B.S. Computer Science, Acme University, 2017"
+    },
+    "Omar_Aziz.txt": {
+      "name": "Omar Aziz",
+      "role": "qa",
+      "title": "Junior QA Automation Engineer",
+      "seniority": "Junior",
+      "years": 2,
+      "skills": [
+        "Python",
+        "Selenium",
+        "Test Automation",
+        "CI/CD",
+        "pytest",
+        "API Testing"
+      ],
+      "achievements": [
+        "improved model accuracy by 40 points",
+        "shipped 34 production releases per month"
+      ],
+      "education": "B.S. Information Technology, Beta University, 2020"
+    },
+    "Nina_Berg.txt": {
+      "name": "Nina Berg",
+      "role": "pm",
+      "title": "Junior Product Manager",
+      "seniority": "Junior",
+      "years": 2,
+      "skills": [
+        "Roadmapping",
+        "Analytics",
+        "SQL",
+        "A/B Testing",
+        "Agile",
+        "Stakeholder Management",
+        "Terraform"
+      ],
+      "achievements": [
+        "cut p95 latency by 53%",
+        "mentored 36 engineers"
+      ],
+      "education": "B.S. Business Administration, DataWorks University, 2020"
+    },
+    "Carlos_Silva.docx": {
+      "name": "Carlos Silva",
+      "role": "backend",
+      "title": "Senior Backend Engineer",
+      "seniority": "Senior",
+      "years": 9,
+      "skills": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "REST APIs",
+        "Redis",
+        "gRPC",
+        "Docker",
+        "Microservices",
+        "Terraform"
+      ],
+      "achievements": [
+        "improved model accuracy by 56 points",
+        "reduced incident count by 9%"
+      ],
+      "education": "B.S. Computer Science, CloudNine University, 2013"
+    },
+    "Priya_Noor.pdf": {
+      "name": "Priya Noor",
+      "role": "ml",
+      "title": "Senior Machine Learning Engineer",
+      "seniority": "Senior",
+      "years": 10,
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "PyTorch",
+        "scikit-learn",
+        "NLP",
+        "Pandas",
+        "Spark",
+        "MLOps",
+        "TypeScript"
+      ],
+      "achievements": [
+        "grew test coverage to 28%",
+        "reduced infrastructure cost by 44%"
+      ],
+      "education": "B.S. Machine Learning, ShipFast University, 2012"
+    },
+    "Yuki_Brown.txt": {
+      "name": "Yuki Brown",
+      "role": "data_science",
+      "title": "Data Scientist",
+      "seniority": "Mid",
+      "years": 5,
+      "skills": [
+        "Python",
+        "Statistics",
+        "Pandas",
+        "SQL",
+        "Machine Learning",
+        "A/B Testing",
+        "Tableau"
+      ],
+      "achievements": [
+        "led a migration serving 55M users",
+        "mentored 2 engineers"
+      ],
+      "education": "B.S. Statistics, VisionAI University, 2017"
+    },
+    "Tariq_Lee.txt": {
+      "name": "Tariq Lee",
+      "role": "frontend",
+      "title": "Frontend Engineer",
+      "seniority": "Mid",
+      "years": 4,
+      "skills": [
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "CSS",
+        "Accessibility",
+        "Next.js"
+      ],
+      "achievements": [
+        "shipped 32 production releases per month",
+        "mentored 52 engineers"
+      ],
+      "education": "B.S. Computer Science, StreamHub University, 2018"
+    },
+    "Lena_Petrov.txt": {
+      "name": "Lena Petrov",
+      "role": "fullstack",
+      "title": "Senior Full Stack Developer",
+      "seniority": "Senior",
+      "years": 12,
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "TypeScript",
+        "MongoDB",
+        "GraphQL",
+        "Express",
+        "AWS",
+        "Kafka"
+      ],
+      "achievements": [
+        "shipped 21 production releases per month",
+        "improved model accuracy by 16 points"
+      ],
+      "education": "B.S. Software Engineering, BrightUI University, 2010"
+    },
+    "Diego_Lin.docx": {
+      "name": "Diego Lin",
+      "role": "devops",
+      "title": "Senior DevOps Engineer",
+      "seniority": "Senior",
+      "years": 12,
+      "skills": [
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "Ansible",
+        "Prometheus",
+        "Python"
+      ],
+      "achievements": [
+        "reduced infrastructure cost by 28%",
+        "shipped 58 production releases per month"
+      ],
+      "education": "B.S. Computer Engineering, SafeGuard University, 2010"
+    },
+    "Fatima_Ali.pdf": {
+      "name": "Fatima Ali",
+      "role": "sre",
+      "title": "Senior Site Reliability Engineer",
+      "seniority": "Senior",
+      "years": 9,
+      "skills": [
+        "Kubernetes",
+        "Prometheus",
+        "Go",
+        "Python",
+        "Linux",
+        "SLOs",
+        "Terraform",
+        "Incident Response",
+        "Docker"
+      ],
+      "achievements": [
+        "reduced infrastructure cost by 29%",
+        "led a migration serving 16M users"
+      ],
+      "education": "B.S. Computer Science, GrowthLabs University, 2013"
+    },
+    "Noah_Park.txt": {
+      "name": "Noah Park",
+      "role": "data_eng",
+      "title": "Data Engineer",
+      "seniority": "Mid",
+      "years": 3,
+      "skills": [
+        "Python",
+        "Spark",
+        "Airflow",
+        "SQL",
+        "ETL",
+        "AWS",
+        "Kafka"
+      ],
+      "achievements": [
+        "reduced infrastructure cost by 10%",
+        "shipped 53 production releases per month"
+      ],
+      "education": "B.S. Data Engineering, Nodal University, 2019"
+    },
+    "Grace_Mehta.txt": {
+      "name": "Grace Mehta",
+      "role": "security",
+      "title": "Security Engineer",
+      "seniority": "Mid",
+      "years": 6,
+      "skills": [
+        "Python",
+        "Threat Modeling",
+        "Penetration Testing",
+        "SIEM",
+        "AWS",
+        "Cryptography",
+        "Go"
+      ],
+      "achievements": [
+        "led a migration serving 60M users",
+        "reduced incident count by 37%"
+      ],
+      "education": "B.S. Cybersecurity, PixelLabs University, 2016"
+    },
+    "Ivan_Weiss.txt": {
+      "name": "Ivan Weiss",
+      "role": "mobile",
+      "title": "Mobile Engineer",
+      "seniority": "Mid",
+      "years": 6,
+      "skills": [
+        "Swift",
+        "Kotlin",
+        "iOS",
+        "Android",
+        "Mobile",
+        "CI/CD",
+        "Flutter",
+        "SQL"
+      ],
+      "achievements": [
+        "mentored 51 engineers",
+        "led a migration serving 35M users"
+      ],
+      "education": "B.S. Computer Science, CoreSystems University, 2016"
+    },
+    "Mei_Larsson.docx": {
+      "name": "Mei Larsson",
+      "role": "qa",
+      "title": "QA Automation Engineer",
+      "seniority": "Mid",
+      "years": 6,
+      "skills": [
+        "Python",
+        "Selenium",
+        "Test Automation",
+        "CI/CD",
+        "pytest",
+        "API Testing",
+        "Playwright",
+        "TypeScript"
+      ],
+      "achievements": [
+        "shipped 23 production releases per month",
+        "grew test coverage to 22%"
+      ],
+      "education": "B.S. Information Technology, Quantify University, 2016"
+    },
+    "Hassan_Saab.pdf": {
+      "name": "Hassan Saab",
+      "role": "pm",
+      "title": "Senior Product Manager",
+      "seniority": "Senior",
+      "years": 7,
+      "skills": [
+        "Roadmapping",
+        "Analytics",
+        "A/B Testing",
+        "Agile",
+        "Stakeholder Management",
+        "Prioritization",
+        "Figma"
+      ],
+      "achievements": [
+        "reduced infrastructure cost by 28%",
+        "shipped 23 production releases per month"
+      ],
+      "education": "B.S. Business Administration, NimbusIO University, 2015"
+    },
+    "Zoe_Conti.txt": {
+      "name": "Zoe Conti",
+      "role": "backend",
+      "title": "Senior Backend Engineer",
+      "seniority": "Senior",
+      "years": 7,
+      "skills": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "REST APIs",
+        "Redis",
+        "Celery",
+        "Docker",
+        "gRPC"
+      ],
+      "achievements": [
+        "cut p95 latency by 58%",
+        "led a migration serving 50M users"
+      ],
+      "education": "B.S. Computer Science, Acme University, 2015"
+    },
+    "Arjun_Ivanova.txt": {
+      "name": "Arjun Ivanova",
+      "role": "ml",
+      "title": "Senior Machine Learning Engineer",
+      "seniority": "Senior",
+      "years": 8,
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "PyTorch",
+        "scikit-learn",
+        "NLP",
+        "TensorFlow",
+        "MLOps",
+        "Pandas"
+      ],
+      "achievements": [
+        "led a migration serving 49M users",
+        "mentored 49 engineers"
+      ],
+      "education": "B.S. Machine Learning, Beta University, 2014"
+    },
+    "Clara_Mensah.txt": {
+      "name": "Clara Mensah",
+      "role": "data_science",
+      "title": "Senior Data Scientist",
+      "seniority": "Senior",
+      "years": 7,
+      "skills": [
+        "Python",
+        "Statistics",
+        "Pandas",
+        "SQL",
+        "Machine Learning",
+        "A/B Testing",
+        "Experimentation",
+        "R",
+        "Kafka"
+      ],
+      "achievements": [
+        "cut p95 latency by 23%",
+        "shipped 44 production releases per month"
+      ],
+      "education": "B.S. Statistics, DataWorks University, 2015"
+    },
+    "Sven_Kim.docx": {
+      "name": "Sven Kim",
+      "role": "frontend",
+      "title": "Senior Frontend Engineer",
+      "seniority": "Senior",
+      "years": 9,
+      "skills": [
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "CSS",
+        "HTML",
+        "Next.js",
+        "Webpack",
+        "Redux"
+      ],
+      "achievements": [
+        "cut p95 latency by 39%",
+        "shipped 38 production releases per month"
+      ],
+      "education": "B.S. Computer Science, CloudNine University, 2013"
+    },
+    "Leila_Costa.pdf": {
+      "name": "Leila Costa",
+      "role": "fullstack",
+      "title": "Senior Full Stack Developer",
+      "seniority": "Senior",
+      "years": 9,
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "TypeScript",
+        "Express",
+        "Docker",
+        "GraphQL",
+        "Python"
+      ],
+      "achievements": [
+        "improved model accuracy by 31 points",
+        "reduced infrastructure cost by 22%"
+      ],
+      "education": "B.S. Software Engineering, ShipFast University, 2013"
+    },
+    "Marco_Cohen.txt": {
+      "name": "Marco Cohen",
+      "role": "devops",
+      "title": "DevOps Engineer",
+      "seniority": "Mid",
+      "years": 5,
+      "skills": [
+        "AWS",
+        "Terraform",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "Prometheus",
+        "Python"
+      ],
+      "achievements": [
+        "led a migration serving 55M users",
+        "grew test coverage to 7%"
+      ],
+      "education": "B.S. Computer Engineering, VisionAI University, 2017"
+    },
+    "Anya_Fischer.txt": {
+      "name": "Anya Fischer",
+      "role": "sre",
+      "title": "Site Reliability Engineer",
+      "seniority": "Mid",
+      "years": 6,
+      "skills": [
+        "Kubernetes",
+        "Go",
+        "Python",
+        "Linux",
+        "Incident Response",
+        "Grafana"
+      ],
+      "achievements": [
+        "cut p95 latency by 3%",
+        "led a migration serving 17M users"
+      ],
+      "education": "B.S. Computer Science, StreamHub University, 2016"
+    },
+    "Kofi_Doe.txt": {
+      "name": "Kofi Doe",
+      "role": "data_eng",
+      "title": "Data Engineer",
+      "seniority": "Mid",
+      "years": 3,
+      "skills": [
+        "Python",
+        "Spark",
+        "Airflow",
+        "SQL",
+        "ETL",
+        "Snowflake",
+        "Kafka",
+        "AWS"
+      ],
+      "achievements": [
+        "shipped 46 production releases per month",
+        "reduced incident count by 18%"
+      ],
+      "education": "B.S. Data Engineering, BrightUI University, 2019"
+    },
+    "Hana_Smith.docx": {
+      "name": "Hana Smith",
+      "role": "security",
+      "title": "Senior Security Engineer",
+      "seniority": "Senior",
+      "years": 12,
+      "skills": [
+        "Python",
+        "Threat Modeling",
+        "Penetration Testing",
+        "SIEM",
+        "AWS",
+        "Burp Suite",
+        "SOC",
+        "Go",
+        "Docker"
+      ],
+      "achievements": [
+        "mentored 45 engineers",
+        "reduced incident count by 60%"
+      ],
+      "education": "B.S. Cybersecurity, SafeGuard University, 2010"
+    },
+    "Pedro_Patel.pdf": {
+      "name": "Pedro Patel",
+      "role": "mobile",
+      "title": "Mobile Engineer",
+      "seniority": "Mid",
+      "years": 5,
+      "skills": [
+        "Swift",
+        "Kotlin",
+        "iOS",
+        "Android",
+        "Mobile",
+        "Flutter",
+        "React Native"
+      ],
+      "achievements": [
+        "shipped 46 production releases per month",
+        "cut p95 latency by 51%"
+      ],
+      "education": "B.S. Computer Science, GrowthLabs University, 2017"
+    },
+    "Sara_Garcia.txt": {
+      "name": "Sara Garcia",
+      "role": "qa",
+      "title": "QA Automation Engineer",
+      "seniority": "Mid",
+      "years": 4,
+      "skills": [
+        "Python",
+        "Selenium",
+        "Test Automation",
+        "CI/CD",
+        "pytest",
+        "Cypress",
+        "API Testing"
+      ],
+      "achievements": [
+        "improved model accuracy by 29 points",
+        "mentored 44 engineers"
+      ],
+      "education": "B.S. Information Technology, Nodal University, 2018"
+    },
+    "Tom_OConnor.txt": {
+      "name": "Tom O'Connor",
+      "role": "pm",
+      "title": "Product Manager",
+      "seniority": "Mid",
+      "years": 5,
+      "skills": [
+        "Roadmapping",
+        "Analytics",
+        "SQL",
+        "Agile",
+        "Figma",
+        "Stakeholder Management"
+      ],
+      "achievements": [
+        "reduced infrastructure cost by 25%",
+        "shipped 42 production releases per month"
+      ],
+      "education": "B.S. Business Administration, PixelLabs University, 2017"
+    },
+    "John_Haddad.txt": {
+      "name": "John Haddad",
+      "role": "backend",
+      "title": "Backend Engineer",
+      "seniority": "Mid",
+      "years": 6,
+      "skills": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "REST APIs",
+        "Redis",
+        "Docker",
+        "Celery"
+      ],
+      "achievements": [
+        "mentored 53 engineers",
+        "reduced incident count by 60%"
+      ],
+      "education": "B.S. Computer Science, CoreSystems University, 2016"
+    },
+    "Jane_Volkov.docx": {
+      "name": "Jane Volkov",
+      "role": "ml",
+      "title": "Senior Machine Learning Engineer",
+      "seniority": "Senior",
+      "years": 7,
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "PyTorch",
+        "scikit-learn",
+        "NLP",
+        "Spark",
+        "MLOps",
+        "Pandas",
+        "SQL"
+      ],
+      "achievements": [
+        "reduced infrastructure cost by 58%",
+        "grew test coverage to 30%"
+      ],
+      "education": "B.S. Machine Learning, Quantify University, 2015"
+    },
+    "Raj_Ruiz.pdf": {
+      "name": "Raj Ruiz",
+      "role": "data_science",
+      "title": "Data Scientist",
+      "seniority": "Mid",
+      "years": 3,
+      "skills": [
+        "Python",
+        "Statistics",
+        "Pandas",
+        "SQL",
+        "Machine Learning",
+        "Experimentation",
+        "A/B Testing",
+        "Terraform"
+      ],
+      "achievements": [
+        "grew test coverage to 15%",
+        "shipped 24 production releases per month"
+      ],
+      "education": "B.S. Statistics, NimbusIO University, 2019"
+    },
+    "Maria_Nair.txt": {
+      "name": "Maria Nair",
+      "role": "frontend",
+      "title": "Senior Frontend Engineer",
+      "seniority": "Senior",
+      "years": 12,
+      "skills": [
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "HTML",
+        "Accessibility",
+        "Webpack",
+        "Redux"
+      ],
+      "achievements": [
+        "shipped 17 production releases per month",
+        "cut p95 latency by 48%"
+      ],
+      "education": "B.S. Computer Science, Acme University, 2010"
+    },
+    "Liam_Tanaka.txt": {
+      "name": "Liam Tanaka",
+      "role": "fullstack",
+      "title": "Full Stack Developer",
+      "seniority": "Mid",
+      "years": 5,
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "TypeScript",
+        "MongoDB",
+        "Express",
+        "AWS"
+      ],
+      "achievements": [
+        "reduced incident count by 52%",
+        "shipped 3 production releases per month"
+      ],
+      "education": "B.S. Software Engineering, Beta University, 2017"
+    },
+    "Aisha_Aziz.txt": {
+      "name": "Aisha Aziz",
+      "role": "devops",
+      "title": "Junior DevOps Engineer",
+      "seniority": "Junior",
+      "years": 2,
+      "skills": [
+        "AWS",
+        "Terraform",
+        "Docker",
+        "Kubernetes",
+        "Python",
+        "Kafka"
+      ],
+      "achievements": [
+        "improved model accuracy by 37 points",
+        "shipped 35 production releases per month"
+      ],
+      "education": "B.S. Computer Engineering, DataWorks University, 2020"
+    },
+    "Chen_Berg.docx": {
+      "name": "Chen Berg",
+      "role": "sre",
+      "title": "Site Reliability Engineer",
+      "seniority": "Mid",
+      "years": 5,
+      "skills": [
+        "Kubernetes",
+        "Prometheus",
+        "Go",
+        "Python",
+        "Linux",
+        "Incident Response",
+        "Terraform"
+      ],
+      "achievements": [
+        "mentored 18 engineers",
+        "grew test coverage to 16%"
+      ],
+      "education": "B.S. Computer Science, CloudNine University, 2017"
+    },
+    "Sofia_Silva.pdf": {
+      "name": "Sofia Silva",
+      "role": "data_eng",
+      "title": "Junior Data Engineer",
+      "seniority": "Junior",
+      "years": 2,
+      "skills": [
+        "Python",
+        "Spark",
+        "Airflow",
+        "SQL",
+        "ETL",
+        "dbt",
+        "React"
+      ],
+      "achievements": [
+        "grew test coverage to 15%",
+        "reduced infrastructure cost by 49%"
+      ],
+      "education": "B.S. Data Engineering, ShipFast University, 2020"
+    },
+    "David_Noor.txt": {
+      "name": "David Noor",
+      "role": "security",
+      "title": "Security Engineer",
+      "seniority": "Mid",
+      "years": 6,
+      "skills": [
+        "Python",
+        "Threat Modeling",
+        "Penetration Testing",
+        "AWS",
+        "Burp Suite",
+        "SOC",
+        "Terraform"
+      ],
+      "achievements": [
+        "grew test coverage to 2%",
+        "reduced incident count by 47%"
+      ],
+      "education": "B.S. Cybersecurity, VisionAI University, 2016"
+    },
+    "Emma_Brown.txt": {
+      "name": "Emma Brown",
+      "role": "mobile",
+      "title": "Senior Mobile Engineer",
+      "seniority": "Senior",
+      "years": 7,
+      "skills": [
+        "Swift",
+        "iOS",
+        "Android",
+        "Mobile",
+        "React Native",
+        "REST APIs",
+        "Flutter"
+      ],
+      "achievements": [
+        "grew test coverage to 57%",
+        "improved model accuracy by 50 points"
+      ],
+      "education": "B.S. Computer Science, StreamHub University, 2015"
+    },
+    "Omar_Lee.txt": {
+      "name": "Omar Lee",
+      "role": "qa",
+      "title": "QA Automation Engineer",
+      "seniority": "Mid",
+      "years": 6,
+      "skills": [
+        "Python",
+        "Test Automation",
+        "CI/CD",
+        "pytest",
+        "API Testing",
+        "Playwright"
+      ],
+      "achievements": [
+        "improved model accuracy by 5 points",
+        "reduced infrastructure cost by 18%"
+      ],
+      "education": "B.S. Information Technology, BrightUI University, 2016"
+    },
+    "Nina_Petrov.docx": {
+      "name": "Nina Petrov",
+      "role": "pm",
+      "title": "Product Manager",
+      "seniority": "Mid",
+      "years": 6,
+      "skills": [
+        "Roadmapping",
+        "SQL",
+        "A/B Testing",
+        "Agile",
+        "Prioritization",
+        "Stakeholder Management",
+        "Node.js"
+      ],
+      "achievements": [
+        "cut p95 latency by 11%",
+        "reduced infrastructure cost by 53%"
+      ],
+      "education": "B.S. Business Administration, SafeGuard University, 2016"
+    },
+    "Carlos_Lin.pdf": {
+      "name": "Carlos Lin",
+      "role": "backend",
+      "title": "Senior Backend Engineer",
+      "seniority": "Senior",
+      "years": 8,
+      "skills": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "REST APIs",
+        "Redis",
+        "Celery",
+        "Docker",
+        "Microservices"
+      ],
+      "achievements": [
+        "led a migration serving 40M users",
+        "mentored 52 engineers"
+      ],
+      "education": "B.S. Computer Science, GrowthLabs University, 2014"
+    },
+    "Priya_Ali.txt": {
+      "name": "Priya Ali",
+      "role": "ml",
+      "title": "Senior Machine Learning Engineer",
+      "seniority": "Senior",
+      "years": 8,
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "PyTorch",
+        "scikit-learn",
+        "Spark",
+        "MLOps",
+        "Pandas"
+      ],
+      "achievements": [
+        "led a migration serving 38M users",
+        "grew test coverage to 41%"
+      ],
+      "education": "B.S. Machine Learning, Nodal University, 2014"
+    },
+    "Yuki_Park.txt": {
+      "name": "Yuki Park",
+      "role": "data_science",
+      "title": "Junior Data Scientist",
+      "seniority": "Junior",
+      "years": 1,
+      "skills": [
+        "Python",
+        "Statistics",
+        "Pandas",
+        "SQL",
+        "Machine Learning",
+        "R"
+      ],
+      "achievements": [
+        "shipped 15 production releases per month",
+        "improved model accuracy by 18 points"
+      ],
+      "education": "B.S. Statistics, PixelLabs University, 2021"
+    },
+    "Tariq_Mehta.txt": {
+      "name": "Tariq Mehta",
+      "role": "frontend",
+      "title": "Senior Frontend Engineer",
+      "seniority": "Senior",
+      "years": 9,
+      "skills": [
+        "JavaScript",
+        "React",
+        "CSS",
+        "HTML",
+        "Next.js",
+        "Accessibility",
+        "Redux",
+        "GraphQL"
+      ],
+      "achievements": [
+        "reduced incident count by 40%",
+        "improved model accuracy by 32 points"
+      ],
+      "education": "B.S. Computer Science, CoreSystems University, 2013"
+    },
+    "Lena_Weiss.docx": {
+      "name": "Lena Weiss",
+      "role": "fullstack",
+      "title": "Full Stack Developer",
+      "seniority": "Mid",
+      "years": 4,
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "AWS",
+        "Docker"
+      ],
+      "achievements": [
+        "reduced infrastructure cost by 16%",
+        "improved model accuracy by 18 points"
+      ],
+      "education": "B.S. Software Engineering, Quantify University, 2018"
+    },
+    "Diego_Larsson.pdf": {
+      "name": "Diego Larsson",
+      "role": "devops",
+      "title": "Senior DevOps Engineer",
+      "seniority": "Senior",
+      "years": 12,
+      "skills": [
+        "AWS",
+        "Terraform",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "Python",
+        "Prometheus",
+        "Ansible"
+      ],
+      "achievements": [
+        "grew test coverage to 54%",
+        "reduced incident count by 11%"
+      ],
+      "education": "B.S. Computer Engineering, NimbusIO University, 2010"
+    },
+    "Fatima_Saab.txt": {
+      "name": "Fatima Saab",
+      "role": "sre",
+      "title": "Junior Site Reliability Engineer",
+      "seniority": "Junior",
+      "years": 2,
+      "skills": [
+        "Kubernetes",
+        "Prometheus",
+        "Go",
+        "Linux",
+        "Incident Response"
+      ],
+      "achievements": [
+        "reduced incident count by 21%",
+        "improved model accuracy by 46 points"
+      ],
+      "education": "B.S. Computer Science, Acme University, 2020"
+    },
+    "Noah_Conti.txt": {
+      "name": "Noah Conti",
+      "role": "data_eng",
+      "title": "Data Engineer",
+      "seniority": "Mid",
+      "years": 5,
+      "skills": [
+        "Python",
+        "Spark",
+        "Airflow",
+        "SQL",
+        "ETL",
+        "AWS",
+        "Snowflake",
+        "Docker"
+      ],
+      "achievements": [
+        "led a migration serving 22M users",
+        "improved model accuracy by 40 points"
+      ],
+      "education": "B.S. Data Engineering, Beta University, 2017"
+    },
+    "Grace_Ivanova.txt": {
+      "name": "Grace Ivanova",
+      "role": "security",
+      "title": "Security Engineer",
+      "seniority": "Mid",
+      "years": 4,
+      "skills": [
+        "Python",
+        "Threat Modeling",
+        "SIEM",
+        "AWS",
+        "Burp Suite",
+        "Cryptography"
+      ],
+      "achievements": [
+        "cut p95 latency by 50%",
+        "led a migration serving 13M users"
+      ],
+      "education": "B.S. Cybersecurity, DataWorks University, 2018"
+    },
+    "Ivan_Mensah.docx": {
+      "name": "Ivan Mensah",
+      "role": "mobile",
+      "title": "Mobile Engineer",
+      "seniority": "Mid",
+      "years": 6,
+      "skills": [
+        "Swift",
+        "Kotlin",
+        "iOS",
+        "Android",
+        "Mobile",
+        "CI/CD",
+        "Flutter",
+        "Kafka"
+      ],
+      "achievements": [
+        "led a migration serving 54M users",
+        "improved model accuracy by 33 points"
+      ],
+      "education": "B.S. Computer Science, CloudNine University, 2016"
+    },
+    "Mei_Kim.pdf": {
+      "name": "Mei Kim",
+      "role": "qa",
+      "title": "Junior QA Automation Engineer",
+      "seniority": "Junior",
+      "years": 2,
+      "skills": [
+        "Python",
+        "Selenium",
+        "Test Automation",
+        "CI/CD",
+        "pytest",
+        "Performance Testing",
+        "Node.js"
+      ],
+      "achievements": [
+        "reduced infrastructure cost by 12%",
+        "led a migration serving 23M users"
+      ],
+      "education": "B.S. Information Technology, ShipFast University, 2020"
+    },
+    "Hassan_Costa.txt": {
+      "name": "Hassan Costa",
+      "role": "pm",
+      "title": "Product Manager",
+      "seniority": "Mid",
+      "years": 5,
+      "skills": [
+        "Roadmapping",
+        "Analytics",
+        "SQL",
+        "A/B Testing",
+        "Agile",
+        "Go-to-Market",
+        "Prioritization"
+      ],
+      "achievements": [
+        "cut p95 latency by 7%",
+        "shipped 22 production releases per month"
+      ],
+      "education": "B.S. Business Administration, VisionAI University, 2017"
+    },
+    "Zoe_Cohen.txt": {
+      "name": "Zoe Cohen",
+      "role": "backend",
+      "title": "Backend Engineer",
+      "seniority": "Mid",
+      "years": 4,
+      "skills": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "REST APIs",
+        "Redis",
+        "Docker",
+        "Microservices"
+      ],
+      "achievements": [
+        "cut p95 latency by 57%",
+        "improved model accuracy by 36 points"
+      ],
+      "education": "B.S. Computer Science, StreamHub University, 2018"
+    },
+    "Arjun_Fischer.txt": {
+      "name": "Arjun Fischer",
+      "role": "ml",
+      "title": "Machine Learning Engineer",
+      "seniority": "Mid",
+      "years": 6,
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "PyTorch",
+        "scikit-learn",
+        "NLP",
+        "MLOps",
+        "Pandas"
+      ],
+      "achievements": [
+        "reduced incident count by 30%",
+        "improved model accuracy by 50 points"
+      ],
+      "education": "B.S. Machine Learning, BrightUI University, 2016"
+    },
+    "Clara_Doe.docx": {
+      "name": "Clara Doe",
+      "role": "data_science",
+      "title": "Junior Data Scientist",
+      "seniority": "Junior",
+      "years": 1,
+      "skills": [
+        "Python",
+        "Statistics",
+        "SQL",
+        "Machine Learning",
+        "Tableau"
+      ],
+      "achievements": [
+        "reduced incident count by 3%",
+        "cut p95 latency by 42%"
+      ],
+      "education": "B.S. Statistics, SafeGuard University, 2021"
+    },
+    "Sven_Smith.pdf": {
+      "name": "Sven Smith",
+      "role": "frontend",
+      "title": "Senior Frontend Engineer",
+      "seniority": "Senior",
+      "years": 8,
+      "skills": [
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "CSS",
+        "HTML",
+        "Next.js",
+        "Webpack",
+        "Redux"
+      ],
+      "achievements": [
+        "reduced infrastructure cost by 55%",
+        "reduced incident count by 60%"
+      ],
+      "education": "B.S. Computer Science, GrowthLabs University, 2014"
+    }
+  },
+  "jobs": {
+    "jd_ml_engineer": {
+      "id": "jd_ml_engineer",
+      "title": "Senior Machine Learning Engineer",
+      "target_roles": [
+        "ml",
+        "data_science"
+      ],
+      "must_have": [
+        "Python",
+        "Machine Learning"
+      ],
+      "min_years": 5,
+      "text": "We are hiring a Senior Machine Learning Engineer to build and deploy ML models in production. Must have 5+ years of Python and hands-on machine learning experience (PyTorch or TensorFlow), including NLP. Experience with MLOps and large-scale data pipelines is a plus."
+    },
+    "jd_backend_python": {
+      "id": "jd_backend_python",
+      "title": "Backend Engineer (Python)",
+      "target_roles": [
+        "backend",
+        "data_eng"
+      ],
+      "must_have": [
+        "Python",
+        "REST APIs"
+      ],
+      "min_years": 3,
+      "text": "Backend Engineer to build scalable REST APIs and services. Strong Python and relational database (PostgreSQL) skills required, 3+ years. Familiarity with Redis, Docker, and microservices preferred."
+    },
+    "jd_frontend_react": {
+      "id": "jd_frontend_react",
+      "title": "Frontend Engineer (React)",
+      "target_roles": [
+        "frontend",
+        "fullstack"
+      ],
+      "must_have": [
+        "React",
+        "JavaScript"
+      ],
+      "min_years": 3,
+      "text": "Frontend Engineer with strong React and JavaScript/TypeScript skills, 3+ years. You will build accessible, performant UIs. Experience with Next.js and design systems is a plus."
+    },
+    "jd_devops_sre": {
+      "id": "jd_devops_sre",
+      "title": "DevOps / SRE",
+      "target_roles": [
+        "devops",
+        "sre"
+      ],
+      "must_have": [
+        "Kubernetes",
+        "Terraform"
+      ],
+      "min_years": 4,
+      "text": "DevOps/SRE to own our cloud infrastructure and reliability. Must have Kubernetes, Terraform, and AWS experience, 4+ years. CI/CD, Prometheus, and incident response experience valued."
+    },
+    "jd_data_engineer": {
+      "id": "jd_data_engineer",
+      "title": "Data Engineer",
+      "target_roles": [
+        "data_eng"
+      ],
+      "must_have": [
+        "Spark",
+        "Airflow",
+        "SQL"
+      ],
+      "min_years": 4,
+      "text": "Data Engineer to build batch and streaming pipelines. Must have Spark, Airflow, and SQL, 4+ years. Kafka, Snowflake, and dbt experience a plus."
+    },
+    "jd_security": {
+      "id": "jd_security",
+      "title": "Security Engineer",
+      "target_roles": [
+        "security"
+      ],
+      "must_have": [
+        "Threat Modeling",
+        "Penetration Testing"
+      ],
+      "min_years": 4,
+      "text": "Security Engineer to lead application security. Must have threat modeling and penetration testing experience, 4+ years. Python and cloud (AWS) security knowledge required."
+    },
+    "jd_fullstack_react": {
+      "id": "jd_fullstack_react",
+      "title": "Full Stack Engineer (React + Node.js)",
+      "target_roles": [
+        "fullstack",
+        "frontend"
+      ],
+      "must_have": [
+        "React",
+        "Node.js"
+      ],
+      "min_years": 3,
+      "text": "Full Stack Engineer to own features end to end. Must have React and Node.js with TypeScript, 3+ years. GraphQL, MongoDB, and AWS experience is a plus."
+    },
+    "jd_platform_engineer": {
+      "id": "jd_platform_engineer",
+      "title": "Senior Platform Engineer",
+      "target_roles": [
+        "sre",
+        "devops"
+      ],
+      "must_have": [
+        "Kubernetes",
+        "Go"
+      ],
+      "min_years": 5,
+      "text": "Senior Platform Engineer to build our internal developer platform. Must have Kubernetes and Go, 5+ years. Terraform, Prometheus, and AWS experience preferred; on-call and SLO ownership a plus."
+    }
+  }
+}

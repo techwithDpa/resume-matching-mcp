@@ -1,0 +1,16 @@
+Arjun Fischer
+Machine Learning Engineer
+arjun.fischer@example.com
+
+SUMMARY
+Machine Learning Engineer with 6 years of experience. Specializes in Python, Machine Learning, PyTorch.
+
+SKILLS
+Python, Machine Learning, PyTorch, scikit-learn, NLP, MLOps, Pandas
+
+EXPERIENCE
+- Machine Learning Engineer, BrightUI (2023-present): delivered projects using Python, Machine Learning, PyTorch; reduced incident count by 30%.
+- Machine Learning Engineer, CoreSystems (2020-2023): built systems with scikit-learn, NLP, MLOps; improved model accuracy by 50 points.
+
+EDUCATION
+B.S. Machine Learning, BrightUI University, 2016

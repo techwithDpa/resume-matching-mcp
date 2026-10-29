@@ -1,0 +1,31 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	parse_jd(parse_jd)
+	extract_requirements(extract_requirements)
+	search_resumes(search_resumes)
+	rank_candidates(rank_candidates)
+	generate_report(generate_report)
+	human_feedback(human_feedback)
+	refine_requirements(refine_requirements)
+	chat_agent(chat_agent)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> parse_jd;
+	chat_agent --> human_feedback;
+	extract_requirements --> search_resumes;
+	generate_report --> human_feedback;
+	human_feedback -. &nbsp;end&nbsp; .-> __end__;
+	human_feedback -. &nbsp;question&nbsp; .-> chat_agent;
+	human_feedback -. &nbsp;new_search&nbsp; .-> parse_jd;
+	human_feedback -. &nbsp;refine&nbsp; .-> refine_requirements;
+	parse_jd --> extract_requirements;
+	rank_candidates --> generate_report;
+	refine_requirements --> search_resumes;
+	search_resumes --> rank_candidates;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc

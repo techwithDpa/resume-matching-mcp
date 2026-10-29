@@ -1,0 +1,16 @@
+Mei Lin
+Senior QA Automation Engineer
+mei.lin@example.com
+
+SUMMARY
+Senior QA Automation Engineer with 7 years of experience. Specializes in Python, Selenium, Test Automation.
+
+SKILLS
+Python, Selenium, Test Automation, CI/CD, Playwright, Performance Testing, API Testing, AWS
+
+EXPERIENCE
+- Senior QA Automation Engineer, BrightUI (2023-present): delivered projects using Python, Selenium, Test Automation; led a migration serving 29M users.
+- QA Automation Engineer, CoreSystems (2019-2023): built systems with CI/CD, Playwright, Performance Testing; grew test coverage to 28%.
+
+EDUCATION
+B.S. Information Technology, BrightUI University, 2015

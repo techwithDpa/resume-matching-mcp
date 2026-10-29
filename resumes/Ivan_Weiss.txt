@@ -1,0 +1,16 @@
+Ivan Weiss
+Mobile Engineer
+ivan.weiss@example.com
+
+SUMMARY
+Mobile Engineer with 6 years of experience. Specializes in Swift, Kotlin, iOS.
+
+SKILLS
+Swift, Kotlin, iOS, Android, Mobile, CI/CD, Flutter, SQL
+
+EXPERIENCE
+- Mobile Engineer, CoreSystems (2023-present): delivered projects using Swift, Kotlin, iOS; mentored 51 engineers.
+- Mobile Engineer, DataWorks (2020-2023): built systems with Android, Mobile, CI/CD; led a migration serving 35M users.
+
+EDUCATION
+B.S. Computer Science, CoreSystems University, 2016

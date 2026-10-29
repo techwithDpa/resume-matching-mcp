@@ -1,0 +1,16 @@
+Tom Fischer
+Product Manager
+tom.fischer@example.com
+
+SUMMARY
+Product Manager with 4 years of experience. Specializes in Roadmapping, Analytics, SQL.
+
+SKILLS
+Roadmapping, Analytics, SQL, A/B Testing, Agile, Figma, Prioritization, AWS
+
+EXPERIENCE
+- Product Manager, VisionAI (2024-present): delivered projects using Roadmapping, Analytics, SQL; grew test coverage to 20%.
+- Product Manager, Nodal (2022-2024): built systems with A/B Testing, Agile, Figma; reduced incident count by 40%.
+
+EDUCATION
+B.S. Business Administration, VisionAI University, 2018

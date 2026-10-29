@@ -1,0 +1,5 @@
+# Flow 4: ranking explanations (incl. a candidate outside the shortlist)
+jobs/jd_backend_python.txt
+Why did #1 rank higher than #3?
+Why did John rank higher than Jane?
+done

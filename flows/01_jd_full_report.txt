@@ -1,0 +1,4 @@
+# Flow 1: JD file -> 3-round screen -> report -> detail on a borderline candidate -> end
+jobs/jd_ml_engineer.txt
+Which candidates are borderline, and what would make them stronger?
+done

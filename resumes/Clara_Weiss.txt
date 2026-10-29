@@ -1,0 +1,15 @@
+Clara Weiss
+Junior Data Scientist
+clara.weiss@example.com
+
+SUMMARY
+Junior Data Scientist with 1 years of experience. Specializes in Python, Statistics, Pandas.
+
+SKILLS
+Python, Statistics, Pandas, SQL, Machine Learning, A/B Testing, Kafka
+
+EXPERIENCE
+- Junior Data Scientist, PixelLabs (2025-present): delivered projects using Python, Statistics, Pandas; reduced incident count by 57%.
+
+EDUCATION
+B.S. Statistics, PixelLabs University, 2021

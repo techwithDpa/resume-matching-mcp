@@ -1,0 +1,16 @@
+Arjun Ivanova
+Senior Machine Learning Engineer
+arjun.ivanova@example.com
+
+SUMMARY
+Senior Machine Learning Engineer with 8 years of experience. Specializes in Python, Machine Learning, PyTorch.
+
+SKILLS
+Python, Machine Learning, PyTorch, scikit-learn, NLP, TensorFlow, MLOps, Pandas
+
+EXPERIENCE
+- Senior Machine Learning Engineer, Beta Inc (2022-present): delivered projects using Python, Machine Learning, PyTorch; led a migration serving 49M users.
+- Machine Learning Engineer, StreamHub (2018-2022): built systems with scikit-learn, NLP, TensorFlow; mentored 49 engineers.
+
+EDUCATION
+B.S. Machine Learning, Beta University, 2014

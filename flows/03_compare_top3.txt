@@ -1,0 +1,4 @@
+# Flow 3: head-to-head comparison
+jobs/jd_fullstack_react.txt
+Compare the top 3 matches side by side
+done

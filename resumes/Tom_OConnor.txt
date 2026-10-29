@@ -1,0 +1,16 @@
+Tom O'Connor
+Product Manager
+tom.o'connor@example.com
+
+SUMMARY
+Product Manager with 5 years of experience. Specializes in Roadmapping, Analytics, SQL.
+
+SKILLS
+Roadmapping, Analytics, SQL, Agile, Figma, Stakeholder Management
+
+EXPERIENCE
+- Product Manager, PixelLabs (2024-present): delivered projects using Roadmapping, Analytics, SQL; reduced infrastructure cost by 25%.
+- Product Manager, Beta Inc (2021-2024): built systems with Agile, Figma, Stakeholder Management; shipped 42 production releases per month.
+
+EDUCATION
+B.S. Business Administration, PixelLabs University, 2017

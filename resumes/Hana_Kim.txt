@@ -1,0 +1,16 @@
+Hana Kim
+Security Engineer
+hana.kim@example.com
+
+SUMMARY
+Security Engineer with 3 years of experience. Specializes in Python, Threat Modeling, Penetration Testing.
+
+SKILLS
+Python, Threat Modeling, Penetration Testing, SIEM, AWS, Cryptography, Go, Kubernetes
+
+EXPERIENCE
+- Security Engineer, DataWorks (2025-present): delivered projects using Python, Threat Modeling, Penetration Testing; cut p95 latency by 41%.
+- Security Engineer, BrightUI (2023-2025): built systems with SIEM, AWS, Cryptography; shipped 38 production releases per month.
+
+EDUCATION
+B.S. Cybersecurity, DataWorks University, 2019

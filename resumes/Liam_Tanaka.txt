@@ -1,0 +1,16 @@
+Liam Tanaka
+Full Stack Developer
+liam.tanaka@example.com
+
+SUMMARY
+Full Stack Developer with 5 years of experience. Specializes in JavaScript, React, Node.js.
+
+SKILLS
+JavaScript, React, Node.js, TypeScript, MongoDB, Express, AWS
+
+EXPERIENCE
+- Full Stack Developer, Beta Inc (2024-present): delivered projects using JavaScript, React, Node.js; reduced incident count by 52%.
+- Full Stack Developer, StreamHub (2021-2024): built systems with TypeScript, MongoDB, Express; shipped 3 production releases per month.
+
+EDUCATION
+B.S. Software Engineering, Beta University, 2017

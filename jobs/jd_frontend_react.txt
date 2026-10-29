@@ -1,0 +1,3 @@
+Frontend Engineer (React)
+
+Frontend Engineer with strong React and JavaScript/TypeScript skills, 3+ years. You will build accessible, performant UIs. Experience with Next.js and design systems is a plus.

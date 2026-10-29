@@ -1,0 +1,16 @@
+Anya Ivanova
+Senior Site Reliability Engineer
+anya.ivanova@example.com
+
+SUMMARY
+Senior Site Reliability Engineer with 8 years of experience. Specializes in Kubernetes, Prometheus, Python.
+
+SKILLS
+Kubernetes, Prometheus, Python, Linux, SLOs, Grafana, Incident Response
+
+EXPERIENCE
+- Senior Site Reliability Engineer, Acme Corp (2022-present): delivered projects using Kubernetes, Prometheus, Python; cut p95 latency by 7%.
+- Site Reliability Engineer, VisionAI (2018-2022): built systems with Linux, SLOs, Grafana; mentored 28 engineers.
+
+EDUCATION
+B.S. Computer Science, Acme University, 2014
