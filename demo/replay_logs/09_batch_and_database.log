@@ -1,0 +1,128 @@
+W1028 18:31:47.640000 46122 .venv/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Resume Matching Agent — LangGraph · 3-round screening over 100 resumes                                               │
+│ LLM: claude-sonnet-5-5                                                                                               │
+│ Start with a JD file (e.g. jobs/jd_ml_engineer.txt) or a request like Find me candidates with React and 3+ years     │
+│ experience.                                                                                                          │
+│ Then ask questions, refine requirements, or type done.                                                               │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+you › jobs/jd_devops_sre.txt
+2026-10-28 18:31:49,299 INFO mcp.resume_db: loaded 100 candidates, 8 jobs from /Users/deepakulkarni/code/resume-matching-mcp/dataset_meta.json
+2026-10-28 18:31:49,302 INFO mcp.resume_db: starting resume_db MCP server: transport=stdio dataset=/Users/deepakulkarni/code/resume-matching-mcp/dataset_meta.json
+2026-10-28 18:31:49,312 INFO mcp.resume_db: Processing request of type ListToolsRequest
+2026-10-28 18:31:49,393 INFO mcp.filesystem: starting filesystem MCP server: transport=stdio root=/Users/deepakulkarni/code/resume-matching-mcp writable=('reports',)
+2026-10-28 18:31:49,402 INFO mcp.filesystem: Processing request of type ListToolsRequest
+2026-10-28 18:31:49,914 INFO mcp.filesystem: starting filesystem MCP server: transport=stdio root=/Users/deepakulkarni/code/resume-matching-mcp writable=('reports',)
+2026-10-28 18:31:49,922 INFO mcp.filesystem: Processing request of type CallToolRequest
+2026-10-28 18:31:49,926 INFO mcp.filesystem: Processing request of type ListToolsRequest
+  · [parse_jd] JD source: jobs/jd_devops_sre.txt (27 words)
+  · [extract_requirements] [llm] must-have=['Kubernetes', 'Terraform', 'AWS'] nice-to-have=['CI/CD', 'Prometheus', 
+'Incident Response'] min_years=4
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+  · [search_resumes] Round 1: scored 100 resumes -> top 10 (4 meet every must-have + years)
+  · [rank_candidates] Round 2: deep analysis of 10 candidates
+2026-10-28 18:31:54,719 INFO mcp.filesystem: starting filesystem MCP server: transport=stdio root=/Users/deepakulkarni/code/resume-matching-mcp writable=('reports',)
+2026-10-28 18:31:54,730 INFO mcp.filesystem: Processing request of type CallToolRequest
+2026-10-28 18:31:54,750 INFO mcp.filesystem: batch_process(read): 10/10 ok in 19.5ms (8 workers)
+2026-10-28 18:31:54,752 INFO mcp.filesystem: Processing request of type ListToolsRequest
+  · [rank_candidates] Round 2 done (llm)
+  · [rank_candidates] Round 3: verdicts {'hire': 4, 'maybe': 4, 'no-hire': 2}
+2026-10-28 18:32:25,838 INFO mcp.filesystem: starting filesystem MCP server: transport=stdio root=/Users/deepakulkarni/code/resume-matching-mcp writable=('reports',)
+2026-10-28 18:32:25,850 INFO mcp.filesystem: Processing request of type CallToolRequest
+2026-10-28 18:32:25,853 INFO mcp.filesystem: Processing request of type ListToolsRequest
+  · [generate_report] Match report written to reports/devops_sre_engineer_v1_20261028_183225.md (via MCP filesystem 
+server)
+╭─ agent ──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ DevOps / SRE Engineer — must: Kubernetes, Terraform, AWS; nice: CI/CD, Prometheus, Incident Response; 4+ yrs         │
+│                                                                                                                      │
+│ Screened 100 resumes → top 10 → 4 hire / 4 maybe / 2 no-hire                                                         │
+│                                                                                                                      │
+│                                                                                                                      │
+│  #  Candidate      Final  Verdict  Key reason                                                                        │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  1  Diego Silva    82     hire     Strongest overall profile: 12 years, all must-haves, a 36% cost reduction, and a  │
+│                                    large-scale migration.…                                                           │
+│  2  Aisha Khan     78     hire     Nine years of DevOps experience and all three must-haves (AWS, Terraform,         │
+│                                    Kubernetes) with CI/CD and…                                                       │
+│  3  Marco Cohen    74     hire     Meets the experience minimum and shows all must-haves, with a large-scale         │
+│                                    migration and recent AWS/Terraform…                                               │
+│  4  Diego Larsson  74     hire     Senior candidate with all must-haves and recent AWS/Terraform use, plus a         │
+│                                    reported reduction in incidents.…                                                 │
+│  5  Diego Lin      71     maybe    Senior, with Kubernetes and AWS plus measurable impact, but Terraform, a          │
+│                                    must-have, is absent from the…                                                    │
+│                                                                                                                      │
+│                                                                                                                      │
+│ Full report: reports/devops_sre_engineer_v1_20261028_183225.md                                                       │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+  (37.1s)
+
+you › How many DevOps candidates are in the ground-truth database with at least 8 years of experience?
+  · [human_feedback] intent=question
+  · [chat_agent] tool query_candidates(role='devops', min_years=8, limit=100)
+2026-10-28 18:32:28,068 INFO mcp.resume_db: loaded 100 candidates, 8 jobs from /Users/deepakulkarni/code/resume-matching-mcp/dataset_meta.json
+2026-10-28 18:32:28,072 INFO mcp.resume_db: starting resume_db MCP server: transport=stdio dataset=/Users/deepakulkarni/code/resume-matching-mcp/dataset_meta.json
+2026-10-28 18:32:28,081 INFO mcp.resume_db: Processing request of type CallToolRequest
+2026-10-28 18:32:28,083 INFO mcp.resume_db: Processing request of type ListToolsRequest
+╭─ agent ──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ The ground-truth database has 4 DevOps candidates with at least 8 years of experience. All four are on the current   │
+│ shortlist.                                                                                                           │
+│                                                                                                                      │
+│                                                                                                                      │
+│  Candidate      Shortlist rank  Years                                                                                │
+│  ────────────────────────────────────                                                                                │
+│  Diego Silva    #1              12                                                                                   │
+│  Aisha Khan     #2              9                                                                                    │
+│  Diego Larsson  #4              12                                                                                   │
+│  Diego Lin      #5              12                                                                                   │
+│                                                                                                                      │
+│                                                                                                                      │
+│ Diego Lin's record doesn't list Terraform, which is one of the must-haves. That matches why he is ranked #5 with a   │
+│ "maybe" verdict.                                                                                                     │
+│                                                                                                                      │
+│ Marco Cohen (#3) doesn't appear in this count. Either his ground-truth role isn't "devops" or he has fewer than 8    │
+│ years of experience. I haven't checked which.                                                                        │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+  (4.5s)
+
+you › Pull the ground-truth record for the #1 candidate from the database and compare it with what you scored them on
+  · [human_feedback] intent=question
+  · [chat_agent] tool get_candidate_record(candidate='Diego_Silva')
+2026-10-28 18:32:32,715 INFO mcp.resume_db: loaded 100 candidates, 8 jobs from /Users/deepakulkarni/code/resume-matching-mcp/dataset_meta.json
+2026-10-28 18:32:32,719 INFO mcp.resume_db: starting resume_db MCP server: transport=stdio dataset=/Users/deepakulkarni/code/resume-matching-mcp/dataset_meta.json
+2026-10-28 18:32:32,731 INFO mcp.resume_db: Processing request of type CallToolRequest
+2026-10-28 18:32:32,732 INFO mcp.resume_db: Processing request of type ListToolsRequest
+  · [chat_agent] tool get_candidate_analysis(candidate='#1')
+╭─ agent ──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Diego Silva (#1): ground-truth record vs. my scoring                                                                 │
+│                                                                                                                      │
+│                                                                                                                      │
+│  Field               Ground truth                                                    Screen                   Match  │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Role / title        devops / Senior DevOps Engineer                                 Senior DevOps engineer   ✅     │
+│  Years               12                                                              12                       ✅     │
+│  Skills              AWS, Terraform, Docker, Kubernetes, CI/CD, Ansible,             Same 9 skills            ✅     │
+│                      Prometheus, Go, GraphQL                                                                         │
+│  Must-haves missing  n/a (all three listed)                                          None                     ✅     │
+│  Achievements        Cut infrastructure cost 36%; led a migration serving 51M users  Both cited as strengths  ✅     │
+│  Education           B.S. Computer Engineering, DataWorks University, 2010           Not used in scoring      n/a    │
+│                                                                                                                      │
+│                                                                                                                      │
+│ Score components: final 82, round 1 78, semantic 74, keyword 83, fit 84. The verdict is hire with medium confidence. │
+│                                                                                                                      │
+│ Takeaways                                                                                                            │
+│                                                                                                                      │
+│  • The screen agrees with the ground truth on every field I could compare. I found no discrepancies.                 │
+│  • The gaps in the screen come from the resume text, not from any mismatch with the database. Neither source         │
+│    mentions incident response, and the database has no skills or achievements that the screen missed.                │
+│  • Kubernetes recency is still unverified. The screen ties it to the 2014–2020 BrightUI role, and the database       │
+│    record has no dates.                                                                                              │
+│  • Prometheus is listed in the skills of both sources. The resume has no experience bullet backing it up.            │
+│  • Education wasn't a scoring factor, so the database's education field adds nothing to the ranking.                 │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+  (7.9s)
+
+you › done
+  · [human_feedback] intent=end
+Session ended.
+  (0.0s)

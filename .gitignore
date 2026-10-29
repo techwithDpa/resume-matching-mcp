@@ -6,3 +6,6 @@ chroma_db/
 .env
 reports/
 .mcp_watch/
+demo/raw.json
+demo/live_intro_raw.json
+demo/demo.cast

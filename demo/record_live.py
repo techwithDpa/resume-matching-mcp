@@ -15,7 +15,7 @@ import struct
 import sys
 import time
 
-COLS, ROWS = 110, 42
+COLS, ROWS = 120, 42   # 120 matches the width the replayed transcripts (demo/replay_logs) were captured at
 
 
 def record(cmd: list[str], out: str) -> None:

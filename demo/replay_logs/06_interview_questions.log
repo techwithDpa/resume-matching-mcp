@@ -1,0 +1,132 @@
+W1028 18:27:55.674000 45725 .venv/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Resume Matching Agent — LangGraph · 3-round screening over 100 resumes                                               │
+│ LLM: claude-sonnet-5-5                                                                                               │
+│ Start with a JD file (e.g. jobs/jd_ml_engineer.txt) or a request like Find me candidates with React and 3+ years     │
+│ experience.                                                                                                          │
+│ Then ask questions, refine requirements, or type done.                                                               │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+you › jobs/jd_devops_sre.txt
+2026-10-28 18:27:57,408 INFO mcp.resume_db: loaded 100 candidates, 8 jobs from /Users/deepakulkarni/code/resume-matching-mcp/dataset_meta.json
+2026-10-28 18:27:57,411 INFO mcp.resume_db: starting resume_db MCP server: transport=stdio dataset=/Users/deepakulkarni/code/resume-matching-mcp/dataset_meta.json
+2026-10-28 18:27:57,421 INFO mcp.resume_db: Processing request of type ListToolsRequest
+2026-10-28 18:27:57,508 INFO mcp.filesystem: starting filesystem MCP server: transport=stdio root=/Users/deepakulkarni/code/resume-matching-mcp writable=('reports',)
+2026-10-28 18:27:57,517 INFO mcp.filesystem: Processing request of type ListToolsRequest
+2026-10-28 18:27:58,048 INFO mcp.filesystem: starting filesystem MCP server: transport=stdio root=/Users/deepakulkarni/code/resume-matching-mcp writable=('reports',)
+2026-10-28 18:27:58,059 INFO mcp.filesystem: Processing request of type CallToolRequest
+2026-10-28 18:27:58,062 INFO mcp.filesystem: Processing request of type ListToolsRequest
+  · [parse_jd] JD source: jobs/jd_devops_sre.txt (27 words)
+  · [extract_requirements] [llm] must-have=['Kubernetes', 'Terraform', 'AWS'] nice-to-have=['CI/CD', 'Prometheus', 
+'Incident Response'] min_years=4
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+  · [search_resumes] Round 1: scored 100 resumes -> top 10 (4 meet every must-have + years)
+  · [rank_candidates] Round 2: deep analysis of 10 candidates
+2026-10-28 18:28:02,973 INFO mcp.filesystem: starting filesystem MCP server: transport=stdio root=/Users/deepakulkarni/code/resume-matching-mcp writable=('reports',)
+2026-10-28 18:28:02,982 INFO mcp.filesystem: Processing request of type CallToolRequest
+2026-10-28 18:28:03,004 INFO mcp.filesystem: batch_process(read): 10/10 ok in 20.5ms (8 workers)
+2026-10-28 18:28:03,005 INFO mcp.filesystem: Processing request of type ListToolsRequest
+  · [rank_candidates] Round 2 done (llm)
+  · [rank_candidates] Round 3: verdicts {'hire': 3, 'maybe': 4, 'no-hire': 3}
+2026-10-28 18:28:36,688 INFO mcp.filesystem: starting filesystem MCP server: transport=stdio root=/Users/deepakulkarni/code/resume-matching-mcp writable=('reports',)
+2026-10-28 18:28:36,704 INFO mcp.filesystem: Processing request of type CallToolRequest
+2026-10-28 18:28:36,708 INFO mcp.filesystem: Processing request of type ListToolsRequest
+  · [generate_report] Match report written to reports/devops_sre_engineer_v1_20261028_182835.md (via MCP filesystem 
+server)
+╭─ agent ──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ DevOps / SRE Engineer — must: Kubernetes, Terraform, AWS; nice: CI/CD, Prometheus, Incident Response; 4+ yrs         │
+│                                                                                                                      │
+│ Screened 100 resumes → top 10 → 3 hire / 4 maybe / 3 no-hire                                                         │
+│                                                                                                                      │
+│                                                                                                                      │
+│  #  Candidate      Final  Verdict  Key reason                                                                        │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  1  Diego Silva    82     hire     Has all three must-haves, 12 years of experience, a measurable 36% cost           │
+│                                    reduction, and a large-scale…                                                     │
+│  2  Aisha Khan     78     hire     Meets all must-haves with 9 years and a senior progression. Vague bullets and     │
+│                                    unclear recent Kubernetes use…                                                    │
+│  3  Marco Cohen    74     hire     Covers all must-haves with 5 years, CI/CD and Prometheus, and a large migration.  │
+│                                    Weak metrics and no incident…                                                     │
+│  4  Diego Larsson  74     maybe    Lists all must-haves and has 12 years, but Kubernetes is only evidenced in the    │
+│                                    2014-2020 role and the bullets…                                                   │
+│  5  Diego Lin      71     maybe    Strong senior profile with Kubernetes, AWS and measurable impact, but Terraform   │
+│                                    is missing entirely, a…                                                           │
+│                                                                                                                      │
+│                                                                                                                      │
+│ Full report: reports/devops_sre_engineer_v1_20261028_182835.md                                                       │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+  (39.9s)
+
+you › Generate interview questions for the #1 candidate
+  · [human_feedback] intent=question
+  · [chat_agent] tool generate_interview_questions(candidate_id='#1')
+2026-10-28 18:28:38,885 INFO mcp.filesystem: starting filesystem MCP server: transport=stdio root=/Users/deepakulkarni/code/resume-matching-mcp writable=('reports',)
+2026-10-28 18:28:38,897 INFO mcp.filesystem: Processing request of type CallToolRequest
+2026-10-28 18:28:38,900 INFO mcp.filesystem: Processing request of type ListToolsRequest
+╭─ agent ──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Interview questions for #1 Diego Silva (final 82, hire)                                                              │
+│                                                                                                                      │
+│                                                                                                                      │
+│  #  Question                                                What it tests                                            │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  1  At DataWorks you cut infrastructure cost by 36%. Where  Confirms the strength: a measurable AWS/Terraform        │
+│     did the savings come from, how did you measure the      result. Checks how much he personally drove.             │
+│     baseline, and which changes mattered most?                                                                       │
+│  2  Tell me about the 51M-user migration at BrightUI. What  Confirms scale and ownership. The resume doesn't         │
+│     did you migrate from and to, what was your role, and    describe the migration.                                  │
+│     what were the outcomes (downtime, performance, cost)?                                                            │
+│  3  When did you last work hands-on with Kubernetes?        Gap: Kubernetes appears only in his 2014–2020 role.      │
+│     Describe a recent cluster: EKS or self-managed, how     Checks whether his experience is recent.                 │
+│     you handled upgrades, and how you deployed workloads.                                                            │
+│  4  How do you structure Terraform for multiple             Checks Terraform depth beyond the keyword.               │
+│     environments and a team? Cover state, modules, drift,                                                            │
+│     and risky production changes.                                                                                    │
+│  5  Describe a production incident you handled from         Gap: the resume shows no incident response, on-call or   │
+│     detection to resolution. What was your role, how did    postmortem work.                                         │
+│     you communicate, and what changed after the                                                                      │
+│     postmortem?                                                                                                      │
+│  6  Have you defined SLOs or error budgets? How did you     Tests SRE practice, which the resume doesn't mention.    │
+│     pick indicators, and what happened when the budget was                                                           │
+│     burning?                                                                                                         │
+│  7  How have you used Prometheus in practice? Give an       Gap: Prometheus is only in his skills list, with no      │
+│     example of an alert or dashboard, and say how you kept  project context.                                         │
+│     alerts from getting noisy.                                                                                       │
+│  8  Describe a CI/CD pipeline you built or owned recently.  Checks the CI/CD claim. His bullets are generic, so      │
+│     What were the stages, how did you handle rollbacks and  this also tests whether the work is current.             │
+│     deployment safety, and how did you measure it?                                                                   │
+│                                                                                                                      │
+│                                                                                                                      │
+│ Priorities: Questions 3, 5 and 7 matter most. They cover the gaps in an otherwise strong profile: recent Kubernetes  │
+│ use, incident response, and Prometheus. If his answers are thin on those, the "hire" verdict may be too high.        │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+  (17.5s)
+
+you › Save those questions to reports/interview_questions_top1.md
+  · [human_feedback] intent=question
+  · [chat_agent] thinking: I'm not actually sure I called generate_interview_questions in my previous turn since no tool
+calls appear in the conversation history, so I shouldn't assume th
+  · [chat_agent] tool generate_interview_questions(candidate_id='#1')
+2026-10-28 18:28:58,606 INFO mcp.filesystem: starting filesystem MCP server: transport=stdio root=/Users/deepakulkarni/code/resume-matching-mcp writable=('reports',)
+2026-10-28 18:28:58,618 INFO mcp.filesystem: Processing request of type CallToolRequest
+2026-10-28 18:28:58,621 INFO mcp.filesystem: Processing request of type ListToolsRequest
+  · [chat_agent] tool get_candidate_analysis(candidate='#1')
+  · [chat_agent] tool write_file(filepath='reports/interview_questions_top1.md', content='# Interview Questions: #1 
+Diego S...)
+2026-10-28 18:29:12,656 INFO mcp.filesystem: starting filesystem MCP server: transport=stdio root=/Users/deepakulkarni/code/resume-matching-mcp writable=('reports',)
+2026-10-28 18:29:12,667 INFO mcp.filesystem: Processing request of type CallToolRequest
+2026-10-28 18:29:12,669 INFO mcp.filesystem: Processing request of type ListToolsRequest
+╭─ agent ──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ I saved the questions to reports/interview_questions_top1.md.                                                        │
+│                                                                                                                      │
+│ My earlier reply didn't show a tool call for the questions, so I re-ran the question generator and the #1 analysis   │
+│ before writing the file. The saved questions come from that output. Some wording differs slightly from what I showed │
+│ you earlier, but all 8 questions cover the same topics.                                                              │
+│                                                                                                                      │
+│ The file also has a short priorities note (questions 3, 5 and 7) and a list of Diego Silva's gaps from the analysis. │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+  (21.2s)
+
+you › done
+  · [human_feedback] intent=end
+Session ended.
+  (0.0s)
